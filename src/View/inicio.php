@@ -10,10 +10,10 @@
 
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="img/IBQ-IQ/P45.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P15.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
+            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
             <h2 class="mainSubtitle text-center font-bold">Desarrolla nuevos horizontes</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
@@ -22,10 +22,10 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P46.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
+            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
             <h2 class="mainSubtitle text-center font-bold">Aprende nuevas tecnologías</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
@@ -33,10 +33,10 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P39.png" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P30.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
-            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Química</h1>
+            <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
             <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Colabora con la comunidad</h1>
             <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
           </div>
@@ -61,7 +61,7 @@
   <div class="row px-2 g-0">
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IBQ-IQ/IMG2.webp" alt="">
+        <img class="img-fluid rounded" src="img/IBQ-IQ/IMG3.webp" alt="">
       </div>
     </div>
 
@@ -69,17 +69,17 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">¿Por qué estudiar Ingeniería Química?</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">¿Por qué estudiar Ingeniería Bioquímica?</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;">La Ingeniería Química es una disciplina versátil y en constante 
-            demanda en diversos sectores industriales. Su plan de estudios está diseñado para proporcionar una base sólida en los fundamentos 
-             de la química, la termodinámica, los procesos químicos y las operaciones unitarias. El instituto 
-             cuenta con laboratorios y equipos que te permitirán adquirir experiencia práctica y desarrollar 
-             habilidades técnicas necesarias en el campo de la Ingeniería Química. A través de proyectos y 
-             prácticas profesionales, tendrás la oportunidad de aplicar tus conocimientos en situaciones reales 
-             y fortalecer tu perfil profesional.
+            <p style="text-align: justify;">La Ingeniería Bioquímica combina los principios de la ingeniería y 
+            la bioquímica para resolver problemas relacionados con la producción de alimentos, medicamentos, 
+            biocombustibles, productos químicos y más. Su programa de Ingeniería Bioquímica está diseñado para 
+            brindarte una sólida formación teórica y práctica en los fundamentos de la bioquímica, la 
+            biotecnología y los procesos biológicos aplicados. Podrás participar en proyectos de investigación y desarrollar 
+            habilidades en el diseño y la implementación de experimentos, así como en la interpretación de 
+            resultados científicos. 
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -100,13 +100,12 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/operacionesUnitarias.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/bioquimica.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Operaciones Unitarias</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Bioquímica</h3>
         <p class="areaText">
-          Estudiarás los principios y técnicas de las operaciones unitarias, 
-          que incluyen procesos de transferencia de masa, transferencia de calor, 
-          separación de mezclas y operaciones de reacción química.
+        Aprenderás los conceptos fundamentales de la bioquímica, como la estructura y función de 
+        las biomoléculas, los procesos metabólicos, las enzimas y la genética.
         </p>
       </div>
     </div>
@@ -114,12 +113,12 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/procesosQuimicos.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/biologiaMolecular.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Procesos Químicos</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Biología Molecular</h3>
         <p class="areaText">
-        Adquirirás conocimientos sobre los diferentes tipos de procesos químicos, como la destilación, 
-        la cristalización, la evaporación, la extracción, la absorción y la reacción química.
+        Obtendrás conocimientos en biología molecular, técnicas de manipulación genética, 
+        ingeniería de proteínas, cultivos celulares y organismos modificados genéticamente.
         </p>
       </div>
     </div>
@@ -127,13 +126,12 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/plantasYEquiposQuimicos.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/biotecnologia.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Plantas y Equipos químicos</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Biotecnología</h3>
         <p class="areaText">
-        Aprenderás a diseñar plantas y equipos químicos, considerando aspectos como la selección de equipos, 
-        el dimensionamiento de reactores, el análisis de flujo de materiales y energía,
-        y la optimización de procesos.
+        Estudiarás los principios y técnicas de los procesos biotecnológicos, como la fermentación, 
+        la purificación de productos biológicos, la producción de enzimas y la ingeniería metabólica.
         </p>
       </div>
     </div>
@@ -141,11 +139,12 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/controlProcesos.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/bioreactor.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Control de Procesos</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Bioreactores</h3>
         <p class="areaText">
-        Estudiarás los principios del control de procesos y adquirirás habilidades en la selección.
+        Aprenderás a diseñar y operar reactores bioquímicos y biológicos, considerando aspectos como 
+        la cinética de reacción, la transferencia de masa y energía, y los sistemas de control.
         </p>
       </div>
     </div>
@@ -153,11 +152,13 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/sistemasControl.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/procesosIndustriales.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Sistemas de Control</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Procesos Industriales</h3>
         <p class="areaText">
-        Aprenderás sobre el diseño de sistemas de control, la instrumentación y la automatización de procesos químicos.
+        Estudiarás los aspectos relacionados con los procesos industriales en la producción de alimentos, 
+        productos farmacéuticos, biocombustibles y productos químicos, incluyendo la optimización de 
+        procesos y el cumplimiento de normas de seguridad y medioambientales.
         </p>
       </div>
     </div>
@@ -165,13 +166,12 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/seguridadIndustrial.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/ingenieriaAlimentos.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Seguridad Industrial y Medio Ambiente</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Ingeniería de alimentos</h3>
         <p class="areaText">
-        Obtendrás conocimientos en seguridad industrial y medio ambiente, incluyendo la gestión de riesgos, 
-        el manejo adecuado de productos químicos, el cumplimiento de normas de seguridad y las consideraciones 
-        ambientales en la industria química.
+        Aplicarás los principios de la ingeniería bioquímica para el procesamiento de alimentos 
+        y la mejora de su calidad, seguridad y valor nutricional.
         </p>
       </div>
     </div>
@@ -228,22 +228,22 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/reynaArredondoToledo.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/aniluMirandaMedina.webp"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
               src="img/Docentes-IQ/benignoOrtizMuniz.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/genovevaDominguezMartinez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/guadalupeAguilarUscanga.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/pabloGonzalezCervantes.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/hugoGarciaGalindo.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/aniluMirandaMedina.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/genovevaDominguezMartinez.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/oscarGonzalezRios.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/joseBarranHerrera.webp"
               alt="">
           </div>
 
@@ -302,7 +302,7 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
         <a href="?option=5">
-          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/comunidad.png" alt="">
+          <img class="img-fluid w-90 shadow-1-strong rounded mb-4  p-1" src="img/comunidad.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Comunidades</h3>
       </div>
@@ -390,7 +390,7 @@
   <div class="row g-0">
     <h4 class="sectionTitle  text-center font-bold">Departamento de Ingeniería Química - Bioquímica</h4>
     <div class="d-flex flex-row justify-content-center">
-      <a class="mx-2" href="https://www.facebook.com/groups/itveringiq/" target="_blank"
+      <a class="mx-2" href="https://www.facebook.com/groups/itveringibq/" target="_blank"
         style="text-decoration: none;">
         <div class="d-flex flex-row justify-content-center">
           <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="width: 40px" src="img/iconos/facebook.PNG"

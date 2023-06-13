@@ -1,6 +1,6 @@
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/IBQ-IQ/P19.png" alt="" />
+    <img class="w-100 img-fluid" src="img/IBQ-IQ/P13.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div
         class="d-flex flex-column justify-content-center align-items-center text-center"

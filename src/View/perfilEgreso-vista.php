@@ -1,11 +1,11 @@
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IBQ-IQ/P20.png" alt="">
+        <img class="w-100 img-fluid" src="img/IBQ-IQ/P34.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Química</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Bioquímica</h1>
             </div>
         </div>
     </div>
@@ -19,18 +19,18 @@
             <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ24.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ21.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/miranda.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ22.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ19.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/eduardo.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ23.png" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IBQ-IQ/IQ16.png" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
                     </div>
 
                 </div>
@@ -45,11 +45,14 @@
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> Formar profesionistas en Ingeniería Química competentes para investigar, 
-                        generar y aplicar el conocimiento científico y tecnológico, que le permita identificar y resolver problemas 
-                        de diseño, operación, adaptación, optimización y administración en industrias químicas y de servicios,
-                        con calidad, seguridad, economía, usando racional y eficientemente los recursos naturales, conservando el medio 
-                        ambiente, cumpliendo el código ético de la profesión y participando en el bienestar de la sociedad.
+                        <p style="text-align: justify;"> 
+                        El perfil de egreso busca desarrollar en los estudiantes una sólida base de 
+                        conocimientos en bioquímica y áreas relacionadas, como biología molecular, química 
+                        orgánica y biología celular. Busca formar profesionales competentes y éticos, con 
+                        conocimientos sólidos en bioquímica, habilidades técnicas y de investigación, 
+                        capacidad para aplicar sus conocimientos en la industria y el desarrollo tecnológico, 
+                        y habilidades de trabajo en equipo y liderazgo. Esto les permite enfrentar los desafíos 
+                        y aprovechar las oportunidades en el campo de la bioquímica y la biotecnología.
                         </p>
                     </div>
                 </div>
@@ -67,46 +70,49 @@
                 <section class="lightSection bg-light p-2">
                     <h2 class="sectionTitle text-center font-bold m-3">Objetivos educacionales</h2>
                     <div class="sectionSeparator"></div>
-                    <p class="p-3" style="text-align: justify;">Los siguientes objetivos educacionales del programa educativo en Ingeniería Química 
-                        se refieren a los conocimientos, habilidades, actitudes y valores que los egresados alcanzan 
-                        en un plazo de 5 años después de su egreso del programa.</p>
+                    <p class="p-3" style="text-align: justify;">
+                    Los siguientes objetivos educacionales del programa educativo en Ingeniería Bioquímica se refieren a los 
+                    conocimientos, habilidades, actitudes y valores que los egresados alcanzan en un plazo de 5 años después 
+                    de su egreso del programa.
+                    </p>
 
                     <div class="row g-0">
                         <div class="col-lg-6 col-sm-6 text-start p-3">
                             <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/1.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que colabora en equipos interdisciplinarios 
-                                    y multidisciplinarios como gerentes, superintendentes, coordinadores, jefes de departamento, 
-                                    operarios y supervisores en el ámbito laboral de la ingeniería química y función pública y privada.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/2.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesionista competente con el conocimiento científico 
-                                    y las habilidades técnicas para desempeñarse en los campos de la investigación, diseño, mejora, 
-                                    desarrollo de procesos, formulación y evaluación de proyectos, gestión logística, 
-                                    planteamiento y control de operaciones en empresas de sectores públicos y privados.</p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-5 mx-4" style="float: left;" src="img/iconos/3.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que comunica información técnica de modo efectivo, 
-                                    para todo tipo de sectores, interactuando incluso en grupos multidisciplinarios e incorporando nuevas 
-                                    tecnologías que contribuyen al progreso y desarrollo en su actividad profesional, asumiendo así un rol proactivo.
+                                <img class="my-3 mx-4" style="float: left;" src="img/iconos/1.png" alt="" height="60px">
+                                <p class="textoArea" style="text-align: justify;">
+                                Aplica creativamente este dominio de los principios básicos en la solución de problemas en las 
+                                diferentes áreas de impacto de la Ingeniería Bioquímica (Ambiente, Energía, Alimentos, Salud, 
+                                entre otras).
                                 </p>
                             </div>
                         </div>
 
                         <div class="col-lg-6 col-sm-6 text-start p-3">
                             <div class="area shadow-sm p-4">
-                                <img class="my-4 mx-4" style="float: left;" src="img/iconos/4.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">El egresado es un profesional competente que ejerce su profesión con actitud 
-                                    responsable y un profundo sentido ético,  respeto a la normativa social y 
-                                    a los sistemas de gestión inherente a su práctica profesional.
+                                <img class="my-2 mx-4" style="float: left;" src="img/iconos/2.png" alt="" height="60px">
+                                <p class="textoArea" style="text-align: justify;">
+                                Aprecia  o es sensible al efecto que decisiones tienen o pueden tener en temas ambientales, 
+                                sociales, de seguridad y económicos.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6 text-start p-3">
+                            <div class="area shadow-sm p-4">
+                                <img class="my-2 mx-4" style="float: left;" src="img/iconos/3.png" alt="" height="60px">
+                                <p class="textoArea" style="text-align: justify;">
+                                Reconoce el compromiso sobre la importancia de la superación personal y en consecuencia manifiesta 
+                                habilidad para el aprendizaje a lo largo de la vida.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6 text-start p-3">
+                            <div class="area shadow-sm p-4">
+                                <img class="mx-4" style="float: left;" src="img/iconos/4.png" alt="" height="60px">
+                                <p class="textoArea" style="text-align: justify;">
+                                Actúa con altos estándares éticos en su práctica profesional.
                                 </p>
                             </div>
                         </div>
