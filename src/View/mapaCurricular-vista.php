@@ -1,10 +1,10 @@
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IBQ-IQ/P35.png" alt="">
+        <img class="w-100 img-fluid" src="img/IBQ-IQ/P36.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Mapa Curricular</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Química</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Bioquímica</h1>
             </div>
         </div>
     </div>
@@ -241,12 +241,11 @@
                         </div>
                         <div class="col-12" style="text-align: center;">
                             <p class="text-light" style="text-align: justify;">
-                                La especialidad es el espacio dentro del plan de estudios, constituido por un conjunto
-                                de
-                                asignaturas diseñadas para la formación y desarrollo de competencias, que complementan
-                                la formación
-                                profesional de los estudiantes de las instituciones adscritas al Tecnológico Nacional de
-                                México.
+                            Las especialidades que cuenta el instituto tecnológico de Veracruz en las carreras de ingeniería química 
+                            y bioquímica, los cuales brindan a los estudiantes la oportunidad de especializarse en áreas específicas, 
+                            permitiéndoles desarrollar una formación más enfocada y aplicada. Además, el departamento fomenta la 
+                            realización de proyectos de investigación y prácticas profesionales en empresas e instituciones relacionadas, 
+                            para complementar la formación académica con experiencias prácticas en el campo laboral.
                             </p>
                             <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
                                 existido:</h5>
@@ -264,7 +263,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG4.png" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG2.webp" alt="">
                 </div>
             </div>
 
@@ -435,7 +434,7 @@
 
 <!-- Residencias profesionales -->
 <div class="bg-primary pt-5">
-    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
+    <img src="img/IBQ-IQ/P29.webp" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">
@@ -551,7 +550,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ28.png" alt="">
+                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ28.webp" alt="">
             </div>
         </div>
 
@@ -614,7 +613,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ20.png" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ20.webp" alt="">
                 </div>
             </div>
 
@@ -625,7 +624,7 @@
 
 <!-- Titulación -->
 <div class="bg-primary pt-5">
-    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
+    <img src="img/IBQ-IQ/P29.webp" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">

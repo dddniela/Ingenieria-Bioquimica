@@ -1,12 +1,12 @@
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/IBQ-IQ/P37.png" alt="" />
+    <img class="w-100 img-fluid" src="img/IBQ-IQ/P21.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning">Conócenos</h1>
         <h1 class="fw-bold text-light d-md-flex d-none">
-          Ingeniería Química
+          Ingeniería Bioquímica
         </h1>
       </div>
     </div>
@@ -33,14 +33,13 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> La carrera de ingeniería en sistemas computacionales pertenece al
-              departamento de sistemas y computación, el objetivo principal del
-              departamento es poner al alcance de los estudiantes diferentes
-              laboratorios de cómputo para el desarrollo de sus materias
-              prácticas y la orientación en los diversos trámites requeridos a
-              lo largo de su plan de estudios, como pueden ser la liberación de
-              créditos complementarios, servicio social, residencias
-              profesionales.
+            <p style="text-align: justify;">
+            El Departamento de Ingeniería Química y Bioquímica del Instituto Tecnológico de Veracruz 
+            ofrece una formación integral en estas disciplinas, brindando a los estudiantes las herramientas 
+            necesarias para enfrentar los desafíos de la industria química y bioquímica, así como contribuir 
+            al avance científico y tecnológico en el campo. También se promueve la participación
+            en la realización de proyectos de investigación y desarrollo, tanto dentro del departamento como en colaboración con otras 
+            instituciones y empresas.
             </p>
           </div>
         </div>

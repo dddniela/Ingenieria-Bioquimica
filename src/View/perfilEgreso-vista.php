@@ -1,7 +1,7 @@
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IBQ-IQ/P34.webp" alt="">
+        <img class="w-100 img-fluid" src="img/IBQ-IQ/P17.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Perfil de Egreso</h1>
@@ -20,17 +20,17 @@
                 <div class="row g-0">
                     <div class="col-4 px-2">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/miranda.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica2.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/miranda.webp" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/eduardo.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica2.webp" alt="">
                     </div>
 
                 </div>
@@ -138,83 +138,72 @@
                 <div class="row g-0">
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ1.png" alt="">
-                            <p class="textoArea">Diseña, selecciona, opera, optimiza y controla procesos en industrias químicas 
-                                y de servicios con base en el desarrollo tecnológico de acuerdo a las normas de higiene y seguridad, 
-                                de manera sustentable.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ2.png" alt="">
-                            <p class="textoArea">Colabora en equipos interdisciplinarios y multiculturales en su 
-                                ámbito laboral, con actitud innovadora, espíritu crítico, disposición al cambio y 
-                                apego a la ética profesional.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ3.png" alt="">
-                            <p class="textoArea"> Planea e implementa sistemas de gestión de calidad, ambiental e higiene 
-                                y seguridad en los diferentes sectores, conforme a las normas nacionales e internacionales.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ4.png" alt="">
-                            <p class="textoArea">Utiliza las tecnologías de la información y comunicación como herramientas 
-                                en la construcción de soluciones a problemas de ingeniería y difundir el conocimiento científico 
-                                y tecnológico.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ5.png" alt="">
-                            <p class="textoArea">Realiza innovación y adaptación de tecnología en procesos 
-                                aplicando la metodología científica, con respeto a la propiedad intelectual.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ6.png" alt="">
-                            <p class="textoArea">Utiliza un segundo idioma en su ámbito laboral según los requerimientos del entorno.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ7.png" alt="">
-                            <p class="textoArea">Se comunica en forma oral y escrita en el ámbito laboral de manera expedita y concisa.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ8.png" alt="">
-                            <p class="textoArea">Demuestra actitud creativa, emprendedora y de liderazgo para impulsar y crear empresas 
-                                que contribuyan al progreso nacional.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ9.png" alt="">
-                            <p class="textoArea">Administrar recursos humanos, materiales y financieros para los sectores público y privado, 
-                                acorde a modelos administrativos vigentes.
+                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO1.png" alt="">
+                            <p class="textoArea">
+                                Ejerce su profesión para resolver problemas en su ámbito, trabajando en equipos 
+                                interdisciplinarios y multiculturales, con liderazgo, sentido crítico, disposición 
+                                al cambio y compromiso con la calidad.
                             </p>
                         </div>
                     </div>
 
                     <div class="col-lg-4 col-sm-6 text-center p-3">
                         <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJ10.png" alt="">
-                            <p class="textoArea">Demuestra actitudes de superación continua para lograr metas personales y profesionales con 
-                                pertinencia y competitividad.
+                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO2.png" alt="">
+                            <p class="textoArea">
+                                Diseña y selecciona equipos y procesos para el aprovechamiento sustentable de los 
+                                recursos bióticos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO3.png" alt="">
+                            <p class="textoArea">
+                                Identifica y aplica tecnología emergente relacionada con el campo de acción del 
+                                Ingeniero Bioquímico para la mejora de procesos existentes.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO4.png" alt="">
+                            <p class="textoArea">
+                                Participa en el diseño y la aplicación de normas y programas para la gestión y 
+                                aseguramiento de la calidad, en empresas e instituciones del ámbito de la 
+                                Ingeniería Bioquímica.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO5.png" alt="">
+                            <p class="textoArea">
+                                Formula y evalúa proyectos de Ingeniería Bioquímica para coadyuvar 
+                                al desarrollo regional con criterios de sustentabilidad.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO6.png" alt="">
+                            <p class="textoArea">
+                                Participa en proyectos de investigación científica y tecnológica en el 
+                                campo de la Ingeniería Bioquímica para contribuir al desarrollo de la sociedad.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 text-center p-3">
+                        <div class="area shadow-sm p-4">
+                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO7.png" alt="">
+                            <p class="textoArea">
+                                Crea y administra, empresas productoras de bienes y servicios para satisfacer 
+                                necesidades en el campo de aplicación de la Ingeniería Bioquímica.
                             </p>
                         </div>
                     </div>
@@ -253,25 +242,25 @@
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela2.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela1.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela6.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela2.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela7.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela3.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela8.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela17.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela13.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela18.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage9">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela9.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela19.webp" alt="">
                         </a>
                     </div>
 
@@ -284,10 +273,10 @@
                 <div class="row g-0">
                     <div class="col-12 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage10">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela21.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela21.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage11">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela22.png" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela37.webp" alt="">
                         </a>
                     </div>
 
@@ -332,8 +321,8 @@
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela2.png" alt="">
-            <p>Estudiante realizando una practica de laboratorio</p>
+            <img src="img/ITVER/escuela1.webp" alt="">
+            <p>Estudiantes realizando una practica de laboratorio</p>
         </div>
     </div>
 </div>
@@ -341,8 +330,8 @@
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela6.png" alt="">
-            <p>Maquinaria que se localiza dentro del Edificio D</p>
+            <img src="img/ITVER/escuela2.png" alt="">
+            <p>Práctica de Laboratorio</p>
         </div>
     </div>
 </div>
@@ -350,8 +339,8 @@
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela7.png" alt="">
-            <p>Maquinaria que se localiza dentro del Edificio D</p>
+            <img src="img/ITVER/escuela3.png" alt="">
+            <p>Laboratorio Ingeniería Fisicoquimica Edificio D</p>
         </div>
     </div>
 </div>
@@ -359,8 +348,8 @@
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela8.png" alt="">
-            <p>Laboratorio Ingeniería Fisicoquimica</p>
+            <img src="img/ITVER/escuela17.png" alt="">
+            <p>Laboratorio de Ingeniería Ecológica, Ambiental y Ciencias</p>
         </div>
     </div>
 </div>
@@ -368,8 +357,8 @@
 <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela13.png" alt="">
-            <p>Áreas verdes del Instituto Tecnológico de Veracruz</p>
+            <img src="img/ITVER/escuela18.png" alt="">
+            <p>Laboratorio de Ingeniería Ecológica, Ambiental y Ciencias</p>
         </div>
     </div>
 </div>
@@ -377,8 +366,8 @@
 <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela9.png" alt="">
-            <p>Pasillo del Edificio F</p>
+            <img src="img/ITVER/escuela19.png" alt="">
+            <p>Laboratorio de Ingeniería Ecológica, Ambiental y Ciencias</p>
         </div>
     </div>
 </div>
@@ -386,8 +375,8 @@
 <div tabindex="-1" aria-labelledby="modalImage10" aria-hidden="true" class="modal fade" id="modalImage10">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela21.png" alt="">
-            <p>Edificio F: Química-Bioquímica</p>
+            <img src="img/ITVER/escuela21.webp" alt="">
+            <p>Edificio F: Bioquímica</p>
         </div>
     </div>
 </div>
@@ -395,8 +384,8 @@
 <div tabindex="-1" aria-labelledby="modalImage11" aria-hidden="true" class="modal fade" id="modalImage11">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela22.png" alt="">
-            <p>Maquinaria que se localiza dentro del Edificio D</p>
+            <img src="img/ITVER/escuela37.webp" alt="">
+            <p>Práctica de laboratorio con alumnos de ingeniería bioquímica</p>
         </div>
     </div>
 </div>
