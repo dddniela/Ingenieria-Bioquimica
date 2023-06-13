@@ -1,10 +1,10 @@
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
-        <img class="w-100 img-fluid" src="img/IMG_3884.webp" alt="">
+        <img class="w-100 img-fluid" src="img/IBQ-IQ/P35.png" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
                 <h1 class="fw-bold text-warning">Mapa Curricular</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Bioquímica</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none">Ingeniería Química</h1>
             </div>
         </div>
     </div>
@@ -264,7 +264,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG-1234.webp" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IMG4.png" alt="">
                 </div>
             </div>
 
@@ -382,7 +382,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/ITVER-10.webp" alt="">
+                    <img class="img-fluid rounded" src="img/extraescolares.webp" alt="">
                 </div>
             </div>
         </div>
@@ -435,7 +435,7 @@
 
 <!-- Residencias profesionales -->
 <div class="bg-primary pt-5">
-    <img src="img/IMG_0337.webp" class="w-full" alt="">
+    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">
@@ -472,7 +472,7 @@
 
             <div class="col-lg-4 col-sm-6 text-center p-3">
                 <div class="area shadow-sm p-4">
-                    <img class="areaImage items-center" src="img/icon1.PNG" alt="">
+                    <img class="areaImage items-center" src="img/icon1.png" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Proyectos</h3>
                     <p class="areaText">Contribuir a la formación integral del alumno a través de la interrelación de
                         conocimientos teóricos y aspectos prácticos de la profesión.</p>
@@ -551,7 +551,7 @@
 
         <div class="col-lg-6 col-12 p-2 shadow-sm">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IMG_1245.webp" alt="">
+                <img class="img-fluid rounded" src="img/IBQ-IQ/IQ28.png" alt="">
             </div>
         </div>
 
@@ -614,7 +614,7 @@
 
             <div class="col-lg-6 col-12 p-2 shadow-sm">
                 <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                    <img class="img-fluid rounded" src="img/IMG_3886.webp" alt="">
+                    <img class="img-fluid rounded" src="img/IBQ-IQ/IQ20.png" alt="">
                 </div>
             </div>
 
@@ -625,7 +625,7 @@
 
 <!-- Titulación -->
 <div class="bg-primary pt-5">
-    <img src="img/ITVER-7.webp" class="w-full" alt="">
+    <img src="img/IBQ-IQ/P48.png" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">

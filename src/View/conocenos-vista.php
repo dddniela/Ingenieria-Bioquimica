@@ -1,12 +1,12 @@
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
-    <img class="w-100 img-fluid" src="img/Venus-4.webp" alt="" />
+    <img class="w-100 img-fluid" src="img/IBQ-IQ/P37.png" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
         <h1 class="fw-bold text-warning">Conócenos</h1>
         <h1 class="fw-bold text-light d-md-flex d-none">
-          Ingeniería Bioquímica
+          Ingeniería Química
         </h1>
       </div>
     </div>
@@ -21,7 +21,7 @@
 
   <div class="col-lg-6 col-12 p-2 shadow-sm">
     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IMG_2102.webp" alt="">
+        <img class="img-fluid rounded" src="img/ITVER/escuela21.webp" alt="">
       </div>
     </div>
 
@@ -29,7 +29,7 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Departamento de Sistemas y Computación</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Departamento de Ingeniería Química-Bioquímica</h2>
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
@@ -59,22 +59,18 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Daniela Hernández Barrios</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Carmen Yolanda Hernández Cardona</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Jefa del Departamento de Sistemas y Computación
+              Jefa del Departamento de Ingeniería Química-Bioquímica
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
-            <h6 class="text-center fw-bold fs-6">
-              “La inteligencia consiste no solo en el conocimiento, sino también
-              en la destreza de aplicarlos en la práctica”<br />
-            </h6>
             <p class="" style="text-align: justify">
-              Daniela Hernández Barrios, Jefa del departamento de Sistemas y Computación de la carrera Ingeniería en
-              Sistemas Computacionales en el Tecnológico de Veracruz; Ingeniero en Sistemas Computacionales, En el cargo
+              Carmen Yolanda Hernández Cardona, Jefa del Departamento de Ingeniería Química-Bioquímica de las carreras de Ingeniería Química
+              e Ingeniería Bioquímica del Tecnológico de Veracruz; Ingeniero industrial en quimica. En el cargo
               de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
-              relacionados con las áreas de sistemas y computación de las carreras que se imparten en el instituto
+              relacionados con las áreas de química y bioquímica de las carreras que se imparten en el instituto
               tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
               derivados de los programas mencionados, proponiendo objetivos, metas y acciones; verificar que las
               actividades de las áreas se realicen de acuerdo con las normas, lineamientos y procedimientos establecidos
@@ -87,7 +83,7 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/danielaHernandezBarrios.webp" alt="">
+        <img class="img-fluid rounded" src="img/IBQ-IQ/yolandaHernandezCardona.webp" alt="">
       </div>
     </div>
 
@@ -102,7 +98,7 @@
 
   <div class="col-lg-6 col-12 p-2 shadow-sm">
     <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/Docentes/bereniceLagunesPadilla.webp" alt="">
+        <img class="img-fluid rounded" src="img/IBQ-IQ/patriciaDiazGarcia.webp" alt="">
       </div>
     </div>
 
@@ -110,18 +106,17 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Berenice Lagunes Padilla</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Patricia Díaz García</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-            Coordinadora de Ingeniería en Sistemas Computacionales
-            </h4>
+            Coordinadora de Ingeniería Química y Bioquímica
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Berenice Lagunes Padilla, coordinadora de la carrera ingeniería en
-              Sistemas Computacionales en el Tecnológico de Veracruz; licenciada
-              en Ciencias de la Educación, con maestría en Educación por
-              competencias. En el cargo de coordinación, su función principal,
+              Francisca Patricia Díaz García, coordinadora de la carrera ingeniería Química y Bioquímica
+              en el Tecnológico de Veracruz; licenciada en Ciencias de la Educación, 
+              con maestría en Educación por competencias. 
+              En el cargo de coordinación, su función principal,
               es la orientación académica de los alumnos estudiantes de dicha
               licenciatura a lo largo de su estancia en la Institución, para un
               correcto avance y aprovechamiento de su programa de estudios. Así
@@ -314,7 +309,7 @@
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
     <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
-    <p>Daniela Castro Rodriguez, Marco Gabriel Cortés Toledo, 
-     Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina</p>
+    <p>Marco Gabriel Cortés Toledo, Daniela Castro Rodriguez, 
+      Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina</p>
 </div>
 <!-- Fin Laboratorio de cómputo intensivo -->
