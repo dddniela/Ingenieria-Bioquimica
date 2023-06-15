@@ -211,12 +211,10 @@ class Docente
 
     function generarPaginacion()
     {
-        $cn = $this->connection;
-        $sqlSelect = "SELECT COUNT(docenteId) AS numRows FROM tbl_docente where status=1;";
-        $resultSet = $cn->query($sqlSelect);
-        $numRows = $resultSet->fetch_assoc();
-        $numPaginas = $numRows['numRows'] / 12;
-        $residuo = $numRows['numRows'] % 12;
+        $docentes = $this->getDocentes();
+        $numRows = mysqli_num_rows($docentes);
+        $numPaginas = $numRows / 12;
+        $residuo = $numRows % 12;
         if ($residuo > 0) {
             $numPaginas = $numPaginas + 1;
         }
