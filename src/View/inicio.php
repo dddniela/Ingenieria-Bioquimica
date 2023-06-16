@@ -14,8 +14,8 @@
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
-            <h2 class="mainSubtitle text-center font-bold">Desarrolla nuevos horizontes</h1>
-              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
+            <h2 class="mainSubtitle text-center font-bold">Diseña proyectos de ingeniería</h1>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=4">Explorar</a>
               </p>
           </div>
         </div>
@@ -26,8 +26,8 @@
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
-            <h2 class="mainSubtitle text-center font-bold">Aprende nuevas tecnologías</h1>
-              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
+            <h2 class="mainSubtitle text-center font-bold">Desarrollo de Procesos farmacéuticos, alimentarios y ambiente-energía</h1>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a></p>
           </div>
         </div>
       </div>
@@ -37,8 +37,8 @@
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Colabora con la comunidad</h1>
-            <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=5">Explorar</a></p>
+            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Movilidad nacional e Internacional</h1>
+            <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
@@ -73,13 +73,10 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;">La Ingeniería Bioquímica combina los principios de la ingeniería y 
-            la bioquímica para resolver problemas relacionados con la producción de alimentos, medicamentos, 
-            biocombustibles, productos químicos y más. Su programa de Ingeniería Bioquímica está diseñado para 
-            brindarte una sólida formación teórica y práctica en los fundamentos de la bioquímica, la 
-            biotecnología y los procesos biológicos aplicados. Podrás participar en proyectos de investigación y desarrollar 
-            habilidades en el diseño y la implementación de experimentos, así como en la interpretación de 
-            resultados científicos. 
+            <p style="text-align: justify;">
+            La carrera de ingeniería bioquímica permite al estudiante desarrollar procesos biotecnológicos 
+            sostenibles y económicos; ya que los diseñan, construyen y operan. Además, trasladar productos 
+            en fase de investigación a una escala piloto.
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -100,12 +97,11 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/bioquimica.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/DiseñoOptimizaciónProcesos.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Bioquímica</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Diseño y Optimización de Procesos</h3>
         <p class="areaText">
-        Aprenderás los conceptos fundamentales de la bioquímica, como la estructura y función de 
-        las biomoléculas, los procesos metabólicos, las enzimas y la genética.
+        Desarrolla ingeniería en procesos de alimentos, ambiente y farmacéutica, así como su optimización.
         </p>
       </div>
     </div>
@@ -113,12 +109,12 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/biologiaMolecular.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/controlProceso.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Biología Molecular</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Control de Procesos</h3>
         <p class="areaText">
-        Obtendrás conocimientos en biología molecular, técnicas de manipulación genética, 
-        ingeniería de proteínas, cultivos celulares y organismos modificados genéticamente.
+        Selecciona y aplica la instrumentación para el control de procesos biológicos 
+        a partir de los requerimientos óptimos de operación.
         </p>
       </div>
     </div>
@@ -126,12 +122,11 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3.php">
-          <img class="areaImage items-center" src="img/topicos/biotecnologia.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/simulaciónProcesos.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Biotecnología</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Simulación de Procesos</h3>
         <p class="areaText">
-        Estudiarás los principios y técnicas de los procesos biotecnológicos, como la fermentación, 
-        la purificación de productos biológicos, la producción de enzimas y la ingeniería metabólica.
+        Simula procesos biotecnológicos mediante el uso de software comercial.
         </p>
       </div>
     </div>
@@ -139,12 +134,11 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/bioreactor.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/gestionProcesos.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Bioreactores</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Gestión de los Procesos</h3>
         <p class="areaText">
-        Aprenderás a diseñar y operar reactores bioquímicos y biológicos, considerando aspectos como 
-        la cinética de reacción, la transferencia de masa y energía, y los sistemas de control.
+        Implementa sistemas de gestión de calidad, seguridad, ambiente y energía.
         </p>
       </div>
     </div>
@@ -152,13 +146,11 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/procesosIndustriales.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/formulacionEvaluacionProyectos.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Procesos Industriales</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Formulación y evaluación de proyectos</h3>
         <p class="areaText">
-        Estudiarás los aspectos relacionados con los procesos industriales en la producción de alimentos, 
-        productos farmacéuticos, biocombustibles y productos químicos, incluyendo la optimización de 
-        procesos y el cumplimiento de normas de seguridad y medioambientales.
+        Desarrolla y evalúa un proyecto técnico considerando el desarrollo sustentable.
         </p>
       </div>
     </div>
@@ -166,12 +158,11 @@
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4">
         <a href="?option=3">
-          <img class="areaImage items-center" src="img/topicos/ingenieriaAlimentos.png" alt="">
+          <img class="areaImage items-center" src="img/topicos/controlProduccion.png" alt="">
         </a>
-        <h3 class="areaTitle text-center font-bold text-xl">Ingeniería de alimentos</h3>
+        <h3 class="areaTitle text-center font-bold text-xl">Control de producción</h3>
         <p class="areaText">
-        Aplicarás los principios de la ingeniería bioquímica para el procesamiento de alimentos 
-        y la mejora de su calidad, seguridad y valor nutricional.
+        Interpreta análisis químicos, microbiológicos para la toma de decisión del proceso
         </p>
       </div>
     </div>
@@ -194,15 +185,9 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-            El Departamento de Ingeniería Química y Bioquímica (IQ-IBQ) del Instituto Tecnológico de Veracruz 
-            es un departamento académico dedicado a la formación de profesionales en el ámbito de la ingeniería 
-            química y bioquímica. Su objetivo principal es proporcionar a los estudiantes una sólida base 
-            teórica y práctica en estas disciplinas, así como fomentar la investigación científica y tecnológica 
-            en áreas relacionadas. <br /><br />
-
-            En cuanto a las instalaciones y laboratorios, el departamento cuenta con espacios modernos y bien 
-            equipados para llevar a cabo las prácticas y experimentos necesarios en el proceso de formación de 
-            los estudiantes.
+            El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde 
+            los estudiantes planean y desarrollan experimentos para la obtención de datos que permiten 
+            la comprobación de los conceptos teóricos estudiados en los cursos.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -228,22 +213,22 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/aniluMirandaMedina.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/aniluMirandaMedina.webp"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes-IQ/benignoOrtizMuniz.webp" alt="">
+              src="img/Docentes/benignoOrtizMuniz.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/guadalupeAguilarUscanga.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/kennyOrtizOchoa.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/hugoGarciaGalindo.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/hugoGarciaGalindo.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/genovevaDominguezMartinez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/genovevaDominguezSanchez.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes-IQ/joseBarranHerrera.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/joseBarranHerrera.webp"
               alt="">
           </div>
 
@@ -259,10 +244,11 @@
             <div class="sectionSeparator"></div>
           </div>
           <div class="col-12" style="text-align: center;">
-            <p style="text-align: justify;"> Nuestros profesores son impulsores de cambio, son el elemento esencial de
-              nuestra institución, contamos con profesores y profesoras de diversas disciplinas, quienes demuestran diariamente 
-              su compromiso más allá de las aulas. Son profesionales que tienen la facultad de transformar vidas, de impactar a 
-              las futuras generaciones de estudiantes.
+            <p style="text-align: justify;">
+            Nuestros profesores son impulsores de cambio, contamos con profesores y profesoras de diversas 
+            disciplinas, con estudios de posgrado y una amplia experiencia en el quehacer docente, quienes 
+            demuestran diariamente su compromiso en las aulas. Son profesionales que tienen la facultad de 
+            transformar vidas, de impactar a las futuras generaciones de estudiantes.
             </p>
             <a class="btn btn-warning font-bold" href="?option=2" role="button">¡Conocer docentes!</a>
           </div>

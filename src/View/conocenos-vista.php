@@ -34,12 +34,12 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;">
-            El Departamento de Ingeniería Química y Bioquímica del Instituto Tecnológico de Veracruz 
-            ofrece una formación integral en estas disciplinas, brindando a los estudiantes las herramientas 
-            necesarias para enfrentar los desafíos de la industria química y bioquímica, así como contribuir 
-            al avance científico y tecnológico en el campo. También se promueve la participación
-            en la realización de proyectos de investigación y desarrollo, tanto dentro del departamento como en colaboración con otras 
-            instituciones y empresas.
+            Los programas educativos de Ingeniería Química, Ingeniería Bioquímica y Posgrados de la UNIDA 
+            (Unidad de Investigación y Desarrollo de Alimentos) pertenecen al departamento de Ingeniería 
+            Química y Bioquímica y su objetivo principal es el control de las actividades docentes de los 
+            programas de estudio, la vinculación con el sector productivo para la contribución de la formación 
+            profesional del estudiante, así como propiciar actividades científicas con la investigación 
+            documental y de campo.
             </p>
           </div>
         </div>
@@ -65,15 +65,16 @@
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
+            <h6 class="text-center fw-bold fs-6">
+            “Lo que se realiza con pasión y perseverancia, 
+            los resultados positivos son inherentes”<br />
+            </h6>
             <p class="" style="text-align: justify">
-              Carmen Yolanda Hernández Cardona, Jefa del Departamento de Ingeniería Química-Bioquímica de las carreras de Ingeniería Química
-              e Ingeniería Bioquímica del Tecnológico de Veracruz; Ingeniero industrial en quimica. En el cargo
-              de jefatura del departamento, su función principal, es coordinar la aplicación de programas de estudio
-              relacionados con las áreas de química y bioquímica de las carreras que se imparten en el instituto
-              tecnológico, así mismo el desarrollo de proyectos de investigación y vinculación con el sector productivo,
-              derivados de los programas mencionados, proponiendo objetivos, metas y acciones; verificar que las
-              actividades de las áreas se realicen de acuerdo con las normas, lineamientos y procedimientos establecidos
-              con calidad y espíritu de servicio.
+            Carmen Yolanda Hernández Cardona; Ingeniera Industrial en Química y Maestra en Ciencias 
+            en Bioingeniería, como jefa del departamento tiene la función de coordinar la aplicación 
+            de los programas de estudio de Ingeniería Química, Ingeniería Bioquímica y posgrados relacionados 
+            que se imparten en el Instituto Tecnológico, así como el desarrollo de proyectos de investigación 
+            y vinculación con el sector productivo derivados de los programas mencionados. 
             </p>
           </div>
         </div>
@@ -105,25 +106,19 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Patricia Díaz García</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">Francisca Patricia Díaz García</h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
             Coordinadora de Ingeniería Química y Bioquímica
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-              Francisca Patricia Díaz García, coordinadora de la carrera ingeniería Química y Bioquímica
-              en el Tecnológico de Veracruz; licenciada en Ciencias de la Educación, 
-              con maestría en Educación por competencias. 
-              En el cargo de coordinación, su función principal,
-              es la orientación académica de los alumnos estudiantes de dicha
-              licenciatura a lo largo de su estancia en la Institución, para un
-              correcto avance y aprovechamiento de su programa de estudios. Así
-              mismo se realizan diferentes funciones en la coordinación, como lo
-              son: consulta y cambio de NIP, realizar la estructura académica
-              con base en las estadísticas de la población inscrita y las
-              necesidades de grupos que así se generen dentro de los periodos
-              semestrales así como de cursos de verano.
+            Francisca Patricia Díaz García; Licenciada en Psicología Educativa, como coordinadora 
+            tiene como función principal dar seguimiento al estudiante durante su estancia en la 
+            institución para ofrecer la orientación necesaria para un correcto avance y aprovechamiento 
+            de su plan de estudios. Así mismo se realizan diferentes funciones tales como definir 
+            semestralmente la apertura del número de grupos por asignatura con base a la demanda estudiantil, 
+            consulta y cambio de NIP, análisis de casos extraordinarios, entre otros.
             </p>
           </div>
         </div>

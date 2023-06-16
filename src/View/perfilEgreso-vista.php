@@ -46,13 +46,11 @@
                     </div>
                     <div class="col-12" style="text-align: center;">
                         <p style="text-align: justify;"> 
-                        El perfil de egreso busca desarrollar en los estudiantes una sólida base de 
-                        conocimientos en bioquímica y áreas relacionadas, como biología molecular, química 
-                        orgánica y biología celular. Busca formar profesionales competentes y éticos, con 
-                        conocimientos sólidos en bioquímica, habilidades técnicas y de investigación, 
-                        capacidad para aplicar sus conocimientos en la industria y el desarrollo tecnológico, 
-                        y habilidades de trabajo en equipo y liderazgo. Esto les permite enfrentar los desafíos 
-                        y aprovechar las oportunidades en el campo de la bioquímica y la biotecnología.
+                        Formar profesionales íntegros de la Ingeniería Bioquímica competentes para trabajar 
+                        en equipos multidisciplinarios y multiculturales que, con sentido ético, crítico, creativo, 
+                        emprendedor y actitud de liderazgo, diseñe, controle, simule y optimice equipos, procesos y 
+                        tecnologías sustentables que utilicen recursos bióticos y sus derivados, para la producción 
+                        de bienes y servicios que contribuyan a elevar el nivel de vida de la sociedad.
                         </p>
                     </div>
                 </div>
