@@ -293,7 +293,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
             <img src="img/IMG_4446.webp" alt="">
-            <p>Logo del Instituto Tecnológico de México Veracruz</p>
+            <p>Logo del Instituto Tecnológico de Veracruz</p>
         </div>
     </div>
 </div>
@@ -311,7 +311,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
             <img src="img/ITVER.webp" alt="">
-            <p>Letras del Instituto Tecnológico de México Veracruz</p>
+            <p>Letras del Instituto Tecnológico de Veracruz</p>
         </div>
     </div>
 </div>
