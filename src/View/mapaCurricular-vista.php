@@ -624,7 +624,7 @@
 
 <!-- Titulación -->
 <div class="bg-primary pt-5">
-    <img src="img/IBQ-IQ/P29.webp" class="w-full" alt="">
+    <img src="img/ITVER-7.webp" class="w-full" alt="">
     <section class="darkSection bg-dark">
         <div class="row px-2 g-0">
             <div class="col-lg-12 col-12 py-4">
