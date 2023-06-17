@@ -89,9 +89,9 @@
 
   </div>
 </section>
-<!--Fin Descripción Jefa/e del departamento -->
+<!--Fin Descripcion Jefa/e del departamento -->
 
-<!-- Descripción Jefa/e del departamento -->
+<!-- Descripcion Jefa/e del departamento -->
 <div class="bg-primary pt-5"></div>
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
@@ -132,173 +132,127 @@
 
 
 <!-- Instalaciones -->
-<div class="bg-primary pt-5"></div>
-<section class="seccionInstalaciones bg-dark">
-  <div class="row px-2 g-0">
-    <div class="col-lg-6 col-12 py-4">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <div class="row g-0">
-          <div class="col-12">
-            <h2 class="tituloSeccionOscura text-center font-bold m-3">
-              Instalaciones
-            </h2>
-            <div class="separadorSeccionOscura"></div>
-            <h4 class="text-center text-light fw-bold fs-3">
-              Laboratorios de cómputo
-            </h4>
-          </div>
-          <div class="col-12">
-            <h6 class="text-center text-warning fw-bold fs-6">
-              “El verdadero progreso es el que pone la tecnología al alcance de
-              todos.”<br />
-            </h6>
-
-            <p class="text-light" style="text-align: justify">
-              El departamento de sistemas y computación cuenta con diversos
-              laboratorios de equipo de cómputo en dónde los estudiantes podrán
-              desempañarse en desarrollar diversos programas, aplicaciones y
-              proyectos a lo largo de sus clases prácticas en la carrera de
-              ingeniería en sistemas computacionales. <br /><br />
-              Los laboratorios de cómputo están orientados a servir como
-              herramientas de aprendizaje y apoyo didáctico tanto para los
-              docentes como los alumnos.
+<!-- Galeria de imagenes -->
+<section class="darkSection bg-dark p-2 px-4">
+    <div class="row mb-4 px-2 g-0">
+        <div class="darkSection bg-dark">
+            <h2 class="titleDarkSection text-center font-bold">Instalaciones</h2>
+            <div class="darkSectionSeparator"></div>
+            <p class="text-left" style="color: white;">
+            El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde los estudiantes 
+            planean y desarrollan experimentos para la obtención de datos que permiten la comprobación de los
+            conceptos teóricos estudiados en los cursos.
             </p>
-            <div class="justify-content-center text-center">
-              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://bit.ly/3ZrhDeQ">
-                Reglamento de Laboratorio</a></p>
+        </div>
+
+        <div class="col-12">
+            <div class="galleryContainer bg-dark">
+                <div class="row g-0">
+                    <div class="col-md-4 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica.webp" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQ-Analitica2.webp" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiológicas.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                        </a>
+                    </div>
+
+                    <div class="col-md-4 px-2">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                        </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                        </a>
+                    </div>
+
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
 
-    <div class="col-lg-6 col-12 p-2 d-flex justify-content-center align-items-center">
-      <!-- Galería con modal para laboratorios de cómputo -->
-      <div class="contenedor-galeria bg-dark">
-        <div class="row">
-          <div class="col-lg-6">
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3878.webp" alt="" />
-            </a>
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_1110.webp" alt="" />
-            </a>
-          </div>
-
-          <div class="col-lg-6">
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_3879.webp" alt="" />
-            </a>
-            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_0959.webp" alt="" />
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- Fin Galería con modal para laboratorios de cómputo -->
     </div>
-  </div>
 </section>
-<!--Fin Instalaciones-->
-
+<!-- Fin Galeria de imagenes -->
 <!-- Modals de la galería-->
-<!-- Imagen 1 -->
-<div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage1">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3878.webp" alt="" />
+<div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/ITVER/labIngQuimica.webp" alt="">
+            <p>Laboratorio de Ingeniería Química</p>
+        </div>
     </div>
-  </div>
 </div>
 
-<!-- Imagen 2 -->
-<div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage2">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_1110.webp" alt="" />
+<div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/ITVER/labQ-Analitica2.webp" alt="">
+            <p>Laboratorio de Química Analítica</p>
+        </div>
     </div>
-  </div>
 </div>
 
-<!-- Imagen 3 -->
-<div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage3">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_3879.webp" alt="" />
+<div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/ITVER/labCBiológicas.webp" alt="">
+            <p>Laboratorio de Ciencias Biológicas</p>
+        </div>
     </div>
-  </div>
 </div>
 
-<!-- Imagen 4 -->
-<div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage4">
-  <div class="modal-dialog modal-lg modal-dialog-centered">
-    <div class="modal-content bg-transparent text-white text-center">
-      <img src="img/IMG_0959.webp" alt="" />
+
+<div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/IMG_4446.webp" alt="">
+            <p>Letras del Instituto Tecnológico de México Veracruz</p>
+        </div>
     </div>
-  </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/IMG_4446.webp" alt="">
+            <p>Áreas recreativas</p>
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/IMG_4446.webp" alt="">
+            <p>Áreas recreativas</p>
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/IMG_4446.webp alt="">
+            <p>Edificio E</p>
+        </div>
+    </div>
 </div>
 <!-- Fin Modals de la galería-->
+<!--Fin Instalaciones-->
 
-<!-- Laboratorio de cómputo intensivo -->
-<div class="bg-primary pt-5"></div>
-<section class="seccionInstalaciones bg-dark p-2">
-  <div class="row px-2 g-0">
-    <div class="col-lg-6 col-12 p-2 shadow-sm">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img src="img/IMG_1713.webp" class="img-fluid rounded" alt="" />
-      </div>
-    </div>
-
-    <div class="col-lg-6 col-12 p-4">
-      <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <div class="row g-0">
-          <div class="col-12">
-            <h2 class="tituloSeccionOscura text-center font-bold m-3">
-              Laboratorio de Cómputo Intensivo
-            </h2>
-            <div class="separadorSeccionOscura"></div>
-            <h4 class="text-center text-light fw-bold fs-3">
-              Responsable: Abelardo Rodríguez León
-            </h4>
-          </div>
-          <div class="col-12">
-            <p class="text-light" style="text-align: justify">
-              Adicionalmente a las oficinas administrativas y laboratorios de
-              cómputo, la carrera de ingeniería en sistemas computacionales
-              cuenta con el apoyo de un laboratorio de servidores en dónde el
-              alumnado tendrá la oportunidad de interactuar con clústeres con
-              diferentes enfoques tecnológicos.
-            </p>
-          </div>
-          <div class="col-12">
-            <div class="bg-dark">
-                <ul class="m-3 text-warning font-bold" style="text-align: justify">
-                <li>Agave: Clúster de alto procesamiento.</li>
-                <li>Peyote: Clúster de visualización en 4K.</li>
-                <li>Saguar: Clúster de servicios de virtualización.</li>
-                <li>Nopal: Clúster de alto rendimiento.</li>
-                </ul>
-                </div>
-          </div>
-          <div class="col-12">
-            <p class="text-light" style="text-align: justify">
-              El Dr. Abelardo Rodríguez León (responsable del laboratorio de
-              servidores) pone a disposición el equipo a aquellos alumnos que
-              deseen realizar proyectos, experimentos, investigaciones, realizar
-              servicio social o residencias profesionales dentro del
-              laboratorio.
-
-              <br />
-              <br />
-              Información de contacto: abelardo.rl@veracruz.tecnm.mx
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
+<!-- Autores de la página web -->
 <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
@@ -306,4 +260,3 @@
     <p>Marco Gabriel Cortés Toledo, Daniela Castro Rodriguez, 
       Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina</p>
 </div>
-<!-- Fin Laboratorio de cómputo intensivo -->
