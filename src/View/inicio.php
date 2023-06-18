@@ -26,7 +26,7 @@
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
-            <h2 class="mainSubtitle text-center font-bold">Desarrollo de Procesos farmacéuticos, alimentarios y ambiente-energía</h1>
+            <h2 class="mainSubtitle text-center font-bold">Desarrollo de procesos farmacéuticos, alimentarios y ambiente-energía</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a></p>
           </div>
         </div>
@@ -37,7 +37,7 @@
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2">Ingeniería Bioquímica</h1>
-            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Movilidad nacional e Internacional</h1>
+            <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex">Movilidad nacional e internacional</h1>
             <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
