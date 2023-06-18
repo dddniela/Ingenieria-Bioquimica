@@ -328,7 +328,7 @@
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela2.png" alt="">
+            <img src="img/ITVER/escuela2.webp" alt="">
             <p>Práctica de Laboratorio</p>
         </div>
     </div>
@@ -337,7 +337,7 @@
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela3.png" alt="">
+            <img src="img/ITVER/escuela3.webp" alt="">
             <p>Laboratorio Ingeniería Fisicoquimica Edificio D</p>
         </div>
     </div>
@@ -346,7 +346,7 @@
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela17.png" alt="">
+            <img src="img/ITVER/escuela17.webp" alt="">
             <p>Laboratorio de Ingeniería Ecológica, Ambiental y Ciencias</p>
         </div>
     </div>
@@ -355,7 +355,7 @@
 <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela18.png" alt="">
+            <img src="img/ITVER/escuela18.webp" alt="">
             <p>Laboratorio de Ingeniería Ecológica, Ambiental y Ciencias</p>
         </div>
     </div>
@@ -364,7 +364,7 @@
 <div tabindex="-1" aria-labelledby="modalImage9" aria-hidden="true" class="modal fade" id="modalImage9">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/escuela19.png" alt="">
+            <img src="img/ITVER/escuela19.webp" alt="">
             <p>Laboratorio de Ingeniería Ecológica, Ambiental y Ciencias</p>
         </div>
     </div>
