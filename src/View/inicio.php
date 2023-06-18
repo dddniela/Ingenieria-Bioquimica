@@ -222,13 +222,13 @@
           <div class="col-4 px-2">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/kennyOrtizOchoa.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/hugoGarciaGalindo.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/sandraPerezCorrea.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/genovevaDominguezSanchez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/blancaDiazMartinez.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/joseBarranHerrera.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/pabloGonzalezCervantes.webp"
               alt="">
           </div>
 
