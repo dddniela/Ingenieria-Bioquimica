@@ -242,7 +242,7 @@
                         <div class="col-12" style="text-align: center;">
                             <p class="text-light" style="text-align: justify;">
                             Las especialidades que cuenta el instituto tecnológico de Veracruz en las carreras de ingeniería química 
-                            y bioquímica, los cuales brindan a los estudiantes la oportunidad de especializarse en áreas específicas, 
+                            y bioquímica, las cuales brindan a los estudiantes la oportunidad de especializarse en áreas específicas, 
                             permitiéndoles desarrollar una formación más enfocada y aplicada. Además, el departamento fomenta la 
                             realización de proyectos de investigación y prácticas profesionales en empresas e instituciones relacionadas, 
                             para complementar la formación académica con experiencias prácticas en el campo laboral.

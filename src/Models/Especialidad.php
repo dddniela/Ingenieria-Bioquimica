@@ -28,17 +28,29 @@ class Especialidad
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Sistemas Concurrentes':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Procesos':
+                $ruta_img = 'img/iconos/procesos.png';
                 break;
-            case 'Distribuidas':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Simulacion':
+                $ruta_img = 'img/iconos/simulacion.png';
                 break;
-            case 'Transacciones':
-                $ruta_img = 'img/iconos/circuloDeLectura.PNG';
+            case 'Gestion':
+                $ruta_img = 'img/iconos/gestion.png';
+                break;
+            case 'Humanidades':
+                $ruta_img = 'img/iconos/humanidades.png';
+                break;
+            case 'Alimentos':
+                $ruta_img = 'img/iconos/alimentos.png';
+                break;
+            case 'Farmaceutica':
+                $ruta_img = 'img/iconos/farmaceutica.png';
+                break;
+            case 'Ambiente':
+                $ruta_img = 'img/iconos/ambiente.png';
                 break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/ingenieria.png';
                 break;
         }
         return $ruta_img;
