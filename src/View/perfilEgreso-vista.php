@@ -1,3 +1,10 @@
+<?php
+require_once("src/Models/Seccion.php");
+$seccion = new Seccion();
+$seccion->setConnection($conn->getDB());
+
+$objetivo = $seccion->getObjetivo();
+?>
 <!-- Portada -->
 <div class="row g-0">
     <div class="position-relative w-100 overflow-hidden">
@@ -15,42 +22,44 @@
 <!-- Objetivo general -->
 <section class="p-2">
     <div class="row px-2 g-0">
-        <div class="col-lg-6 col-sm-12">
-            <div class="galleryContainer bg-light">
+        <!-- <div class="col-lg-6 col-sm-12">
+           <div class="galleryContainer bg-light">
                 <div class="row g-0">
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica2.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1335.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1394.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/miranda.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/eduardo.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1407.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1337.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica2.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1363.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1380.webp" alt="">
                     </div>
 
                 </div>
+            </div> 
+        </div>-->
+        <div class="col-lg-6 col-12 p-2 shadow-sm">
+            <div class="d-flex justify-content-center align-items-center w-100 h-100">
+                <img class="img-fluid rounded" src="img/IMG_7305.JPG" alt="">
             </div>
         </div>
-
         <div class="lightSection col-lg-6 col-12 p-4">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
                 <div class="row g-0">
                     <div class="col-12">
-                        <h2 class="sectionTitle text-center font-bold m-3">Objetivo general</h2>
+                        <h2 class="sectionTitle text-center font-bold m-3">
+                            <?php echo $objetivo->titulo ?>
+                        </h2>
                         <div class="sectionSeparator"></div>
                     </div>
                     <div class="col-12" style="text-align: center;">
-                        <p style="text-align: justify;"> 
-                        Formar profesionales íntegros de la Ingeniería Bioquímica competentes para trabajar 
-                        en equipos multidisciplinarios y multiculturales que, con sentido ético, crítico, creativo, 
-                        emprendedor y actitud de liderazgo, diseñe, controle, simule y optimice equipos, procesos y 
-                        tecnologías sustentables que utilicen recursos bióticos y sus derivados, para la producción 
-                        de bienes y servicios que contribuyan a elevar el nivel de vida de la sociedad.
+                        <p style="text-align: justify;">
+                            <?php echo $objetivo->descripcion ?>
                         </p>
                     </div>
                 </div>
@@ -134,78 +143,9 @@
                 <div class="sectionSeparator"></div>
 
                 <div class="row g-0">
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO1.png" alt="">
-                            <p class="textoArea">
-                                Ejerce su profesión para resolver problemas en su ámbito, trabajando en equipos 
-                                interdisciplinarios y multiculturales, con liderazgo, sentido crítico, disposición 
-                                al cambio y compromiso con la calidad.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO2.png" alt="">
-                            <p class="textoArea">
-                                Diseña y selecciona equipos y procesos para el aprovechamiento sustentable de los 
-                                recursos bióticos.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO3.png" alt="">
-                            <p class="textoArea">
-                                Identifica y aplica tecnología emergente relacionada con el campo de acción del 
-                                Ingeniero Bioquímico para la mejora de procesos existentes.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO4.png" alt="">
-                            <p class="textoArea">
-                                Participa en el diseño y la aplicación de normas y programas para la gestión y 
-                                aseguramiento de la calidad, en empresas e instituciones del ámbito de la 
-                                Ingeniería Bioquímica.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO5.png" alt="">
-                            <p class="textoArea">
-                                Formula y evalúa proyectos de Ingeniería Bioquímica para coadyuvar 
-                                al desarrollo regional con criterios de sustentabilidad.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO6.png" alt="">
-                            <p class="textoArea">
-                                Participa en proyectos de investigación científica y tecnológica en el 
-                                campo de la Ingeniería Bioquímica para contribuir al desarrollo de la sociedad.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 text-center p-3">
-                        <div class="area shadow-sm p-4">
-                            <img class="imagenArea items-center" src="img/iconos/OBJETIVO7.png" alt="">
-                            <p class="textoArea">
-                                Crea y administra, empresas productoras de bienes y servicios para satisfacer 
-                                necesidades en el campo de aplicación de la Ingeniería Bioquímica.
-                            </p>
-                        </div>
-                    </div>
-
+                <?php
+                    echo $seccion->imprimirDatos();
+                    ?>
                 </div>
             </section>
             <!-- Fin Puntos del perfil de egreso -->

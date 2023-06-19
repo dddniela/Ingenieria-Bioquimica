@@ -1,3 +1,11 @@
+<?php
+require_once("src/Models/Administrativo.php");
+$administrativos = new Administrativo();
+$administrativos->setConnection($conn->getDB());
+
+$coordinador = $administrativos->getCoordinador();
+$jefeDepartamento =  $administrativos->getJefeDepartamento();
+?>
 <!-- Portada -->
 <div class="row g-0">
   <div class="position-relative w-100 overflow-hidden">
@@ -58,23 +66,17 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Carmen Yolanda Hernández Cardona</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php echo $jefeDepartamento->nombre ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-              Jefa del Departamento de Ingeniería Química-Bioquímica
+              <?php echo $jefeDepartamento->nombrePuesto . " de " . $jefeDepartamento->nombreCarrera ?>
             </h4>
           </div>
           <div class="col-12" style="text-align: center;">
-            <h6 class="text-center fw-bold fs-6">
-            “Lo que se realiza con pasión y perseverancia, 
-            los resultados positivos son inherentes”<br />
-            </h6>
             <p class="" style="text-align: justify">
-            Carmen Yolanda Hernández Cardona; Ingeniera Industrial en Química y Maestra en Ciencias 
-            en Bioingeniería, como jefa del departamento tiene la función de coordinar la aplicación 
-            de los programas de estudio de Ingeniería Química, Ingeniería Bioquímica y posgrados relacionados 
-            que se imparten en el Instituto Tecnológico, así como el desarrollo de proyectos de investigación 
-            y vinculación con el sector productivo derivados de los programas mencionados. 
+              <?php echo $jefeDepartamento->descripcion ?>
             </p>
           </div>
         </div>
@@ -83,22 +85,22 @@
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IBQ-IQ/yolandaHernandezCardona.webp" alt="">
+        <img class="img-fluid rounded" src='<?php echo $jefeDepartamento->imagen ?>' alt="">
       </div>
     </div>
 
   </div>
 </section>
-<!--Fin Descripcion Jefa/e del departamento -->
+<!--Fin Descripción Jefa/e del departamento -->
 
-<!-- Descripcion Jefa/e del departamento -->
+<!-- Descripción Coordinador -->
 <div class="bg-primary pt-5"></div>
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
 
-  <div class="col-lg-6 col-12 p-2 shadow-sm">
-    <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src="img/IBQ-IQ/patriciaDiazGarcia.webp" alt="">
+    <div class="col-lg-6 col-12 p-2 shadow-sm">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
+        <img class="img-fluid rounded" src='<?php echo $coordinador->imagen ?>' alt="">
       </div>
     </div>
 
@@ -106,19 +108,17 @@
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <div class="row g-0">
           <div class="col-12">
-            <h2 class="sectionTitle text-center font-bold m-3">Francisca Patricia Díaz García</h2>
+            <h2 class="sectionTitle text-center font-bold m-3">
+              <?php echo $coordinador->nombre ?>
+            </h2>
             <div class="sectionSeparator"></div>
             <h4 class="text-center fw-bold fs-3">
-            Coordinadora de Ingeniería Química y Bioquímica
+              <?php echo $coordinador->nombrePuesto . " de " . $coordinador->nombreCarrera ?>
+            </h4>
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="" style="text-align: justify">
-            Francisca Patricia Díaz García; Licenciada en Psicología Educativa, como coordinadora 
-            tiene como función principal dar seguimiento al estudiante durante su estancia en la 
-            institución para ofrecer la orientación necesaria para un correcto avance y aprovechamiento 
-            de su plan de estudios. Así mismo se realizan diferentes funciones tales como definir 
-            semestralmente la apertura del número de grupos por asignatura con base a la demanda estudiantil, 
-            consulta y cambio de NIP, análisis de casos extraordinarios, entre otros.
+              <?php echo $coordinador->descripcion ?>
             </p>
           </div>
         </div>
@@ -128,8 +128,7 @@
 
   </div>
 </section>
-<!--Fin Descripción Jefa/e del departamento -->
-
+<!--Fin Descripción Coordinador -->
 
 <!-- Instalaciones -->
 <!-- Galeria de imagenes -->

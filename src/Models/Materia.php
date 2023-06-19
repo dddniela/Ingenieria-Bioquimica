@@ -21,79 +21,57 @@ class Materia
         $this->connection = $conn;
     }
 
-
     function icono($Area)
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.png';
+            case 'Programacion':
+                $ruta_img = 'img/iconos/programacion.PNG';
                 break;
-            case 'Quimica':
-                $ruta_img = 'img/iconos/quimica.png';
+            case 'Asignaturas Comunes':
+                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
                 break;
-            case 'Ciencia':
-                $ruta_img = 'img/iconos/ciencia.png';
+            case 'Redes':
+                $ruta_img = 'img/iconos/redes.PNG';
                 break;
-            case 'Dapc':
-                $ruta_img = 'img/iconos/dapc.png';
+            case 'Bases de datos':
+                $ruta_img = 'img/iconos/bases-datos.PNG';
                 break;
-            case 'Electromagnetismo':
-                $ruta_img = 'img/iconos/electromagnetismo.png';
+            case 'Electronica':
+                $ruta_img = 'img/iconos/electronica.PNG';
                 break;
-            case 'Etica':
-                $ruta_img = 'img/iconos/etica.png';
+            case 'Ingenieria':
+                $ruta_img = 'img/iconos/ingenieria.PNG';
                 break;
-            case 'Fisica':
-                $ruta_img = 'img/iconos/fisica.png';
+            case 'Sistemas operativos':
+                $ruta_img = 'img/iconos/sistemasop.PNG';
                 break;
-            case 'Gestion':
-                $ruta_img = 'img/iconos/gestion.png';
+            case 'Calculo':
+                $ruta_img = 'img/iconos/calculo.PNG';
                 break;
-            case 'Matematicas':
-                $ruta_img = 'img/iconos/matematicas';
+            case 'Estadistica':
+                $ruta_img = 'img/iconos/estadistica.PNG';
                 break;
-            case 'Optimizacion':
-                $ruta_img = 'img/iconos/optimizacion.png';
-                break;
-            case 'Procesos':
-                $ruta_img = 'img/iconos/procesos.png';
-                break;
-            case 'produccion':
-                $ruta_img = 'img/iconos/produccion';
-                break;
-            case 'Proyectos':
-                $ruta_img = 'img/iconos/proyectos.png';
-                break;
-            case 'Simulacion':
-                $ruta_img = 'img/iconos/simulacion.png';
-                break;
-            case 'Ambiente':
-                $ruta_img = 'img/iconos/ambiente.png';
+            case 'Automatas':
+                $ruta_img = 'img/iconos/automatas.PNG';
                 break;
             case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.png';
+                $ruta_img = 'img/iconos/investigacion.PNG';
                 break;
-            case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.png';
+            case 'Matematicas Aplicada':
+                $ruta_img = 'img/iconos/algebra.PNG';
                 break;
-            case 'Economia':
-                $ruta_img = 'img/iconos/economia.png';
+            case 'Web':
+                $ruta_img = 'img/iconos/programacion-web.PNG';
                 break;
-            case 'Seguridad':
-                $ruta_img = 'img/iconos/seguridad.png';
+            case 'Administracion':
+                $ruta_img = 'img/iconos/administracion.PNG';
                 break;
-            case 'Humanidades':
-                $ruta_img = 'img/iconos/humanidades.png';
+            case 'IA':
+                $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
                 break;
-            case 'Alimentos':
-                $ruta_img = 'img/iconos/alimentos.png';
-                break;
-            case 'Farmaceutica':
-                $ruta_img = 'img/iconos/farmaceutica.png';
-                    break;
             default:
-                $ruta_img = 'img/iconos/ingenieria.png';
+                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
                 break;
         }
         return $ruta_img;
@@ -208,69 +186,4 @@ class Materia
         return $this->imprimir(9);
     }
 
-    function imprimirEspecialidad()
-    {
-        $cn = $this->connection;
-        $sqlQ = "SELECT * FROM tbl_especialidad WHERE carreraId=" . $GLOBALS['carreraID'] . ";";
-        $especialidades = $cn->query($sqlQ);
-        $sqlQ = "SELECT * FROM tbl_materia WHERE area='Especialidad' AND carreraId=" . $GLOBALS['carreraID'] . ";";
-        $ResultSet = $cn->query($sqlQ);
-
-        $tabla = "";
-
-        if ($ResultSet->num_rows > 0) {
-            $tabla .= "<div class='row justify-content-md-start h-100 justify-content-center'>";
-            $ruta_img = ['img/iconos/concurrentes.PNG', 'img/iconos/distribuidas.PNG', 'img/iconos/concurrentes.PNG', 'img/iconos/distribuidas.PNG', 'img/iconos/blockchain.PNG', 'img/iconos/distribuidas.PNG'];
-            $i = 0;
-            while ($row = $ResultSet->fetch_assoc()) {
-                $materiaId = $row['materiaId'];
-                $nombre = $row['nombre'];
-                $competencia = $row['competencia'];
-                $area = $row['area'];
-                $urlVideo = $row['urlVideo'];
-                $urlPrograma = $row['urlPrograma'];
-
-                // Cuadro de materia
-                $tabla .= "<div class='col-lg-4 col-md-6 col-sm-9 col-9 p-4 h-100 justify-content-center rounded-3'>
-                <div class='row azul-medio' style='height: 88px;'>
-                    <div class='d-flex justify-content-center h-100'>
-                        <h5 class='text-white align-self-center rounded-top text-center font-semibold py-3'>$nombre</h5>
-                    </div>
-                </div>
-                <div class='row bg-light overflow-hidden d-none d-sm-flex' style='height: 110px;'>
-                    <div class='col-md-3 col-12 justify-content-center align-items-start'>
-                        <div class='d-flex flex-row justify-content-center align-items-start h-100'>
-                            <img class='h-16 p-1 mt-4 ms-4' src='$ruta_img[$i]' alt=''>
-                        </div>
-                    </div>
-                    <div class='col-md-9 col-12 justify-content-center align-items-center'>
-                        <div class='d-flex flex-row justify-content-center align-items-center h-100 text-wrap'>
-                            <p class='text-sm mx-4 my-2' style='text-align: justify;'>$competencia</p>
-                        </div>
-                    </div>
-                </div>  
-                <div class='row bg-light'>
-                    <div class='col-12 my-2 justify-content-center'>
-                        <div class='d-flex p-2 justify-content-center align-items-center'>
-                        <button type='button' class='btn btn-warning font-bold' data-bs-toggle='modal'
-                            data-bs-target='#modalReticula' 
-                                    data-materia ='$nombre' 
-                                    data-videoMateria ='$urlVideo' 
-                                    data-descMateria ='$competencia'
-                                    data-urlMateria ='$urlPrograma'
-                                    data-id='$materiaId'
-                                    onclick='youtubePlay(this)'>
-                                    Ver más </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>";
-                $i = $i + 1;
-            }
-            $tabla .= "</div>";
-        }
-        return $tabla;
-
-        $cn->close();
-    }
 }
