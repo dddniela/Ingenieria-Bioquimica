@@ -8,8 +8,8 @@ require_once("src/Models/Comunidad.php");
 $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 
 $urlControl = array(
-    $_SERVER['SERVER_NAME'] . "/Ingenieria-Mecatronica/",
-    $_SERVER['SERVER_NAME'] . "/Ingenieria-Mecatronica/?option=0"
+    $_SERVER['SERVER_NAME'] . "/Ingenieria-Bioquimica/",
+    $_SERVER['SERVER_NAME'] . "/Ingenieria-Bioquimica/?option=0"
 );
 
 $carreraID = 4;
@@ -33,13 +33,13 @@ $comunidad->setConnection($conn->getDB());
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ingeniería Mecátronica">
-    <meta name="author" content="Daniela Castro Rodriguez, Gabriel Escobar Medina, Nancy Daniela Mendez Arpidez,
-    Marco Gabriel Cortes Toledo, Yelitza Magali Rosas Jimenez, Ángel Manuel Sandria Pérez">
+    <meta name="author" content=" Marco Gabriel Cortes Toledo, Daniela Castro Rodriguez, 
+    Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jimenez, Gabriel Escobar Medina">
     <link rel="icon" href="img/itver-logo.PNG" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <link rel="stylesheet" href="assets/style.css">
-    <title>Ingeniería Mecatrónica</title>
+    <title>Ingeniería Bioquímica</title>
 </head>
 <?php
 include_once "src/View/header.php";

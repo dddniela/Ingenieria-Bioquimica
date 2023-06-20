@@ -25,53 +25,74 @@ class Materia
     {
         $ruta_img = "";
         switch ($Area) {
-            case 'Programacion':
-                $ruta_img = 'img/iconos/programacion.PNG';
+            case 'Administracion':
+                $ruta_img = 'img/iconos/administracion.png';
                 break;
-            case 'Asignaturas Comunes':
-                $ruta_img = 'img/iconos/asignaturas-comunes.PNG';
+            case 'Quimica':
+                $ruta_img = 'img/iconos/quimica.png';
                 break;
-            case 'Redes':
-                $ruta_img = 'img/iconos/redes.PNG';
+            case 'Ciencia':
+                $ruta_img = 'img/iconos/ciencia.png';
                 break;
-            case 'Bases de datos':
-                $ruta_img = 'img/iconos/bases-datos.PNG';
+            case 'Dapc':
+                $ruta_img = 'img/iconos/dapc.png';
                 break;
-            case 'Electronica':
-                $ruta_img = 'img/iconos/electronica.PNG';
+            case 'Electromagnetismo':
+                $ruta_img = 'img/iconos/electromagnetismo.png';
                 break;
-            case 'Ingenieria':
-                $ruta_img = 'img/iconos/ingenieria.PNG';
+            case 'Etica':
+                $ruta_img = 'img/iconos/etica.png';
                 break;
-            case 'Sistemas operativos':
-                $ruta_img = 'img/iconos/sistemasop.PNG';
+            case 'Fisica':
+                $ruta_img = 'img/iconos/fisica.png';
                 break;
-            case 'Calculo':
-                $ruta_img = 'img/iconos/calculo.PNG';
+            case 'Gestion':
+                $ruta_img = 'img/iconos/gestion.png';
                 break;
-            case 'Estadistica':
-                $ruta_img = 'img/iconos/estadistica.PNG';
+            case 'Matematicas':
+                $ruta_img = 'img/iconos/matematicas.png';
                 break;
-            case 'Automatas':
-                $ruta_img = 'img/iconos/automatas.PNG';
+            case 'Optimizacion':
+                $ruta_img = 'img/iconos/optimizacion.png';
+                break;
+            case 'Procesos':
+                $ruta_img = 'img/iconos/procesos.png';
+                break;
+            case 'Produccion':
+                $ruta_img = 'img/iconos/produccion.png';
+                break;
+            case 'Proyectos':
+                $ruta_img = 'img/iconos/proyectos.png';
+                break;
+            case 'Simulacion':
+                $ruta_img = 'img/iconos/simulacion.png';
+                break;
+            case 'Ambiente':
+                $ruta_img = 'img/iconos/ambiente.png';
                 break;
             case 'Investigacion':
-                $ruta_img = 'img/iconos/investigacion.PNG';
+                $ruta_img = 'img/iconos/investigacion.png';
                 break;
-            case 'Matematicas Aplicada':
-                $ruta_img = 'img/iconos/algebra.PNG';
+            case 'Programacion':
+                $ruta_img = 'img/iconos/programacion.png';
                 break;
-            case 'Web':
-                $ruta_img = 'img/iconos/programacion-web.PNG';
+            case 'Economia':
+                $ruta_img = 'img/iconos/economia.png';
                 break;
-            case 'Administracion':
-                $ruta_img = 'img/iconos/administracion.PNG';
+            case 'Seguridad':
+                $ruta_img = 'img/iconos/seguridad.png';
                 break;
-            case 'IA':
-                $ruta_img = 'img/iconos/inteligencia-artificial.PNG';
+            case 'Humanidades':
+                $ruta_img = 'img/iconos/humanidades.png';
                 break;
+            case 'Alimentos':
+                $ruta_img = 'img/iconos/alimentos.png';
+                break;
+            case 'Farmaceutica':
+                $ruta_img = 'img/iconos/farmaceutica.png';
+                    break;
             default:
-                $ruta_img = 'img/extraescolares/circuloDeLectura.PNG';
+                $ruta_img = 'img/iconos/ingenieria.png';
                 break;
         }
         return $ruta_img;

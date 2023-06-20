@@ -12,8 +12,8 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
     <img class="w-100 img-fluid" src="img/IBQ-IQ/P38.webp" alt="" />
     <div class="position-absolute top-50 start-50 translate-middle w-100">
       <div class="d-flex flex-column justify-content-center align-items-center text-center">
-        <h1 class="fw-bold text-warning">Conócenos</h1>
-        <h1 class="fw-bold text-light d-md-flex d-none">
+        <h1 class="fw-bold text-warning text-stroke">Conócenos</h1>
+        <h1 class="fw-bold text-light d-md-flex d-none text-stroke">
           Ingeniería Bioquímica
         </h1>
       </div>
@@ -149,28 +149,28 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                 <div class="row g-0">
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica2.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQ-Analitica2.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiológicas.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiológicas2.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
                         </a>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
@@ -216,8 +216,8 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp" alt="">
-            <p>Letras del Instituto Tecnológico de México Veracruz</p>
+            <img src="img/ITVER/labComputo2.webp" alt="">
+            <p>Laboratorio de Cómputo</p>
         </div>
     </div>
 </div>
@@ -225,8 +225,8 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp" alt="">
-            <p>Áreas recreativas</p>
+            <img src="img/ITVER/labFisicoquimica2.webp" alt="">
+            <p>Laboratorio de Fisicoquímica</p>
         </div>
     </div>
 </div>
@@ -234,8 +234,8 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp" alt="">
-            <p>Áreas recreativas</p>
+            <img src="img/ITVER/labQOrganica2.webp" alt="">
+            <p>Laboratorio de Química Orgánica</p>
         </div>
     </div>
 </div>
@@ -243,8 +243,8 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp alt="">
-            <p>Edificio E</p>
+            <img src="img/IMG_4446.webp" alt="">
+            <p>Laboratorio de Química Inorgánica</p>
         </div>
     </div>
 </div>
