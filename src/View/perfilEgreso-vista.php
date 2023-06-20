@@ -22,31 +22,25 @@ $objetivo = $seccion->getObjetivo();
 <!-- Objetivo general -->
 <section class="p-2">
     <div class="row px-2 g-0">
-        <!-- <div class="col-lg-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12">
            <div class="galleryContainer bg-light">
                 <div class="row g-0">
-                    <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1335.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1394.webp" alt="">
+                <div class="col-4 px-2">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1407.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1337.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/miranda.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/eduardo.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1363.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/IMG_1380.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica2.webp" alt="">
                     </div>
-
                 </div>
             </div> 
-        </div>-->
-        <div class="col-lg-6 col-12 p-2 shadow-sm">
-            <div class="d-flex justify-content-center align-items-center w-100 h-100">
-                <img class="img-fluid rounded" src="img/IMG_7305.JPG" alt="">
-            </div>
         </div>
         <div class="lightSection col-lg-6 col-12 p-4">
             <div class="d-flex justify-content-center align-items-center w-100 h-100">
@@ -77,52 +71,14 @@ $objetivo = $seccion->getObjetivo();
                 <section class="lightSection bg-light p-2">
                     <h2 class="sectionTitle text-center font-bold m-3">Objetivos educacionales</h2>
                     <div class="sectionSeparator"></div>
-                    <p class="p-3" style="text-align: justify;">
-                    Los siguientes objetivos educacionales del programa educativo en Ingeniería Bioquímica se refieren a los 
-                    conocimientos, habilidades, actitudes y valores que los egresados alcanzan en un plazo de 5 años después 
-                    de su egreso del programa.
-                    </p>
+                    <p class="p-3" style="text-align: justify;">Los siguientes objetivos educacionales del programa educativo en Ingeniería Bioquímica 
+                        se refieren a los conocimientos, habilidades, actitudes y valores que los egresados alcanzan 
+                        en un plazo de 5 años después de su egreso del programa.</p>
 
                     <div class="row g-0">
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-3 mx-4" style="float: left;" src="img/iconos/1.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">
-                                Aplica creativamente este dominio de los principios básicos en la solución de problemas en las 
-                                diferentes áreas de impacto de la Ingeniería Bioquímica (Ambiente, Energía, Alimentos, Salud, 
-                                entre otras).
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-2 mx-4" style="float: left;" src="img/iconos/2.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">
-                                Aprecia  o es sensible al efecto que decisiones tienen o pueden tener en temas ambientales, 
-                                sociales, de seguridad y económicos.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="my-2 mx-4" style="float: left;" src="img/iconos/3.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">
-                                Reconoce el compromiso sobre la importancia de la superación personal y en consecuencia manifiesta 
-                                habilidad para el aprendizaje a lo largo de la vida.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 col-sm-6 text-start p-3">
-                            <div class="area shadow-sm p-4">
-                                <img class="mx-4" style="float: left;" src="img/iconos/4.png" alt="" height="60px">
-                                <p class="textoArea" style="text-align: justify;">
-                                Actúa con altos estándares éticos en su práctica profesional.
-                                </p>
-                            </div>
-                        </div>
+                        <?php
+                            echo $seccion->imprimirObjetivosEducacionales();
+                        ?>
                     </div>
                 </section>
                 <!-- Fin Puntos del perfil de egreso -->
@@ -144,7 +100,7 @@ $objetivo = $seccion->getObjetivo();
 
                 <div class="row g-0">
                 <?php
-                    echo $seccion->imprimirDatos();
+                    echo $seccion->imprimirPerfilEgreso();
                     ?>
                 </div>
             </section>
