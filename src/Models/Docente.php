@@ -92,7 +92,7 @@ class Docente
     public function getDocentes()
     {
         $docentes = array();
-        $sql = "SELECT tbl_docente.nombre, tbl_docente.descripcion, tbl_docente.informacionAcademica,
+        $sql = "SELECT tbl_docente.docenteId, tbl_docente.nombre, tbl_docente.descripcion, tbl_docente.informacionAcademica,
         tbl_docente.materias, tbl_docente.contacto, tbl_docente.urlImagen FROM tbl_docente AS tbl_docente
         INNER JOIN tbl_carrera_docente AS tbl_carrera_docente
         ON tbl_docente.docenteId = tbl_carrera_docente.docenteId
@@ -105,7 +105,7 @@ class Docente
     function obtenerInformacion($limiteInferior)
     {
         $cn = $this->connection;
-        $stmt = $cn->prepare("SELECT tbl_docente.nombre, tbl_docente.descripcion, tbl_docente.informacionAcademica,
+        $stmt = $cn->prepare("SELECT tbl_docente.docenteId, tbl_docente.nombre, tbl_docente.descripcion, tbl_docente.informacionAcademica,
         tbl_docente.materias, tbl_docente.contacto, tbl_docente.urlImagen FROM tbl_docente AS tbl_docente
         INNER JOIN tbl_carrera_docente AS tbl_carrera_docente
         ON tbl_docente.docenteId = tbl_carrera_docente.docenteId
