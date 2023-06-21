@@ -15,7 +15,7 @@
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Bioquímica</h1>
             <h2 class="mainSubtitle text-center font-bold shadow-text">Diseña proyectos de ingeniería</h1>
-              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=4">Explorar</a>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
         </div>
