@@ -642,3 +642,7 @@
     -0.5px 0.5px 0 black,
      0.5px 0.5px 0 black; /* Sombra para simular el trazado */
 }
+
+.shadow-text {
+  text-shadow: 2px 2px 10px black;
+}

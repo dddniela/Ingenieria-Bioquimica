@@ -3,8 +3,8 @@
         <img class="w-100 img-fluid" src="img/IBQ-IQ/P36.webp" alt="">
         <div class="position-absolute top-50 start-50 translate-middle w-100">
             <div class="d-flex flex-column justify-content-center align-items-center text-center">
-                <h1 class="fw-bold text-warning text-stroke">Mapa Curricular</h1>
-                <h1 class="fw-bold text-light d-md-flex d-none text-stroke">Ingeniería Bioquímica</h1>
+                <h1 class="fw-bold text-warning shadow-text">Mapa Curricular</h1>
+                <h1 class="fw-bold text-light d-md-flex d-none shadow-text">Ingeniería Bioquímica</h1>
             </div>
         </div>
     </div>
