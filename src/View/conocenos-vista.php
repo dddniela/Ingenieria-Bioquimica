@@ -196,7 +196,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
                         </a>
                     </div>
 
@@ -266,7 +266,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp" alt="">
+            <img src="img/ITVER/labQInorganica2.webp" alt="">
             <p>Laboratorio de Química Inorgánica</p>
         </div>
     </div>
