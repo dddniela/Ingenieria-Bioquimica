@@ -383,7 +383,7 @@
             alt="">
         </div>
       </a>
-      <a class="mx-2" href="https://www.youtube.com/channel/UCYSUOZ6V9YRGviVvwaXOcjw" target="_blank"
+      <a class="mx-2" href="https://www.youtube.com/channel/UC3-FcFXHHyqRLVAxbo3AM9A" target="_blank"
           style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
             <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG"

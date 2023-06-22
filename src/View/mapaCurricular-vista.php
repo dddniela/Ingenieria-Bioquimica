@@ -711,21 +711,27 @@
                             <ul class="my-3 font-bold" style="text-align: justify">
                                 <li>La acreditación del 100% de los créditos de su plan de estudios.</li>
                                 <li>La acreditación de un programa de lengua extranjera presentando un certificado o
-                                    constancia.*</li>
+                                    constancia.</li>
                                 <li>Constancia de no inconveniencia para la realización del acto protocolario
                                     de titulación integral emitida por el Departamento de Servicios Escolares o
                                     su equivalente en los Institutos Tecnológicos Descentralizados.</li>
                                 <li>Documento probatorio de no adeudo económico, material o equipo con
                                     las oficinas, laboratorios y centro de información en la institución de la cual
                                     egresó.</li>
-                                <li>Liberación del proyecto de titulación integral emitida por el (la) Jefe(a) de
+                                <li>Liberación del proyecto de titulación integral emitida por él (la) Jefe(a) de
                                     Departamento Académico.</li>
                                 <li>Presentar acto protocolario del proyecto de titulación integral.</li>
                             </ul>
                         </div>
                         <p class="text-dark" style="text-align: justify;">
-                                *Puede variar según el plan de estudios
+                                *Puede variar según el plan de estudios.
                         </p>
+                        <p class="text-dark" style="text-align: left;">
+                        Solicita información en: coor_titulacion@veracruz.tecnm.mx/titulacion_bioquimica@veracruz.tecnm.mx.
+                        </p>
+                        <div class="justify-content-center text-center">
+                                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/3kpuhew9">Formas de titulación</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
