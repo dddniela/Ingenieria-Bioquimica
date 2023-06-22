@@ -278,7 +278,15 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div class="bg-primary pt-5"></div>
 <div class="p-4 text-center">
   <h5 class="font-bold">Autores de la página:</h5>
-    <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
+    <p class="font-semibold">Estudiantes de la Generación 2018 - 2023
+    </p>
     <p>Marco Gabriel Cortés Toledo, Daniela Castro Rodriguez, 
-      Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina</p>
+      Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jiménez, Gabriel Escobar Medina
+    </p> <br />
+    <p class="font-semibold">
+      Agradecimientos por su apoyo:
+    </p>
+    <p>
+      Ángel Sánchez Domínguez, Eric Manuel Montalvo Cruz, Iván Agame Malpica
+    </p>
 </div>
