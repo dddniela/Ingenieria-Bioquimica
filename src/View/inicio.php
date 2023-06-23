@@ -245,8 +245,8 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;">
-            Nuestros profesores son impulsores de cambio, contamos con profesores y profesoras de diversas 
-            disciplinas, con estudios de posgrado y una amplia experiencia en el quehacer docente, quienes 
+            Contamos con docentes de diversas disciplinas que son impulsores de cambio, 
+            con estudios de posgrado y una amplia experiencia en el quehacer docente, quienes 
             demuestran diariamente su compromiso en las aulas. Son profesionales que tienen la facultad de 
             transformar vidas, de impactar a las futuras generaciones de estudiantes.
             </p>

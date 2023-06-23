@@ -412,7 +412,7 @@
                             y obligatorio, que
                             institucionalmente prestan y ejecutan los estudiantes en beneficio de la sociedad. Los
                             estudiantes de las instituciones
-                            adscritas al TecNM prestan el servicio social para cumplir con los créditos de sus planes de
+                            adscritas al TECNM prestan el servicio social para cumplir con los créditos de sus planes de
                             estudio.
                         </p>
                         <h5 class="font-bold" style="text-align: justify">Requisitos para cursar el servicio social:
@@ -473,7 +473,7 @@
                 <div class="area shadow-sm p-4">
                     <img class="areaImage items-center" src="img/icon1.png" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Proyectos</h3>
-                    <p class="areaText">Contribuir a la formación integral del alumno a través de la interrelación de
+                    <p class="areaText">Contribuir a la formación integral del estudiante a través de la interrelación de
                         conocimientos teóricos y aspectos prácticos de la profesión.</p>
                 </div>
             </div>
@@ -483,8 +483,7 @@
                     <img class="areaImage items-center" src="img/icon2.PNG" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Valores</h3>
                     <p class="areaText">Promover valores profesionales, humanísticos y éticos en la formación integral
-                        del
-                        estudiante.</p>
+                        del estudiante.</p>
                 </div>
             </div>
 
@@ -493,8 +492,7 @@
                     <img class="areaImage items-center" src="img/icon3.PNG" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Experiencia</h3>
                     <p class="areaText">Desarrollar habilidades y competencias para diagnosticar, planear, ejecutar y
-                        evaluar
-                        actividades de la profesión, de conformidad con el perfil de egreso.</p>
+                        evaluar actividades de la profesión, de conformidad con el perfil de egreso.</p>
                 </div>
             </div>
         </div>
@@ -514,10 +512,8 @@
                         <div class="col-12" style="text-align: center;">
                             <p class="text-dark" style="text-align: justify;">
                                 El valor curricular para la residencia profesional es de 10 créditos, y su duración
-                                queda
-                                determinada por un periodo de 4 meses como tiempo mínimo y 6 meses como tiempo máximo,
-                                debiendo
-                                acumularse 500 horas.
+                                queda determinada por un periodo de 4 meses como tiempo mínimo y 6 meses como tiempo máximo,
+                                debiendo acumularse 500 horas.
                             </p>
                         </div>
                         <div class="bg-light">
@@ -570,7 +566,7 @@
                             eficiencia terminal, reducir
                             los índices de reprobación y deserción. <br><br> La tutoría contempla tres ejes
                             fundamentales: desarrollo académico, desarrollo
-                            personal y desarrollo profesional que se ofrece en cada Instituto.
+                            personal y desarrollo profesional que se ofrece en cada instituto.
                         </p>
                     </div>
                 </div>
@@ -602,9 +598,8 @@
                                 vigente de la Secretaría de Educación Pública (SEP), ofreciendo las asignaturas de
                                 los planes de estudio vigentes.
                                 <br><br>
-                                El alumno puede reinscribirse hasta en dos asignaturas como máximo o podrá cursar una sola
-                                asignatura,
-                                cuando ésta sea de opción de curso especial.
+                                El estudiante puede reinscribirse hasta en dos asignaturas como máximo o podrá cursar una sola
+                                asignatura, cuando ésta sea de opción de curso especial.
                             </p>
                         </div>
                     </div>
@@ -677,8 +672,7 @@
                     <img class="areaImage items-center" src="img/icon2.PNG" alt="">
                     <h3 class="areaTitle text-center font-bold text-xl">Tesis</h3>
                     <p class="areaText">Proyecto de Innovación Tecnológica, proyecto de Emprendedurismo, Proyecto
-                        Integral
-                        de Educación Dual, Estancia, Tesis o Tesina</p>
+                        Integral de Educación Dual, Estancia, Tesis o Tesina</p>
                 </div>
             </div>
         </div>
