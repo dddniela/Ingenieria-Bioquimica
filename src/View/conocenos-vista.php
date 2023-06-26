@@ -160,7 +160,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
         <div class="darkSection bg-dark">
             <h2 class="titleDarkSection text-center font-bold">Instalaciones</h2>
             <div class="darkSectionSeparator"></div>
-            <p class="text-left" style="color: white;">
+            <p class="text-center" style="color: white;">
             El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde los estudiantes 
             planean y desarrollan experimentos para la obtención de datos que permiten la comprobación de los
             conceptos teóricos estudiados en los cursos.
