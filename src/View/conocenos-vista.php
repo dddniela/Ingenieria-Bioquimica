@@ -173,37 +173,37 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                     <div class="col-md-4 px-2">
                         <div>
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiologicas2.webp" alt="">
-                            <p class="text-center" style="color: white;">Laboratorio de Cienicas Biológicas</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Cienicas Biológicas</p>
                         </div>
                         <div>
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
-                            <p class="text-center" style="color: white;">Laboratorio de Cómputo</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Cómputo</p>
                         </div>
                         <div>
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
-                            <p class="text-center" style="color: white;">Laboratorio de Química Fisicoquímica</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Fisicoquímica</p>
                         </div>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <div>
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica2.webp" alt="">
-                            <p class="text-center" style="color: white;">Laboratorio de Ingeniería Química</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Ingeniería Química</p>
                         </div>
                         <div>
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQAnalitica2.webp" alt="">
-                            <p class="text-center" style="color: white;">Laboratorio de Química Analítica</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Analítica</p>
                         </div>
                     </div>
 
                     <div class="col-md-4 px-2">
                         <div>
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
-                            <p class="text-center" style="color: white;">Laboratorio de Química Inorgánica</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Inorgánica</p>
                         </div>
                         <div>
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
-                            <p class="text-center" style="color: white;">Laboratorio de Química Orgánica</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Orgánica</p>
                         </div>
                     </div>
 
