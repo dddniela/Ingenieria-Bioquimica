@@ -177,7 +177,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Fisicoquímica</p>
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Fisicoquímica</p>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiologicas2.webp" alt="">
