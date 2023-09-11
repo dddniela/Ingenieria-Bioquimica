@@ -174,14 +174,23 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Cómputo</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Fisicoquímica</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiologicas2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ciencias Biológicas</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
                         </a>
                     </div>
 
@@ -189,10 +198,16 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ingeniería Química</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQAnalitica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Analítica</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
                         </a>
                     </div>
 
@@ -200,10 +215,16 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Inorgánica</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Orgánica</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
                         </a>
                     </div>
 
