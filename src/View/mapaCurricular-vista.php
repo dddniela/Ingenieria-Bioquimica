@@ -318,8 +318,7 @@
                             <div class="sectionSeparator"></div>
                         </div>
                         <div class="col-12" style="text-align: center;">
-                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería en sistemas
-                                computacionales ofrece
+                            <p style="text-align: justify;"> El plan de estudios de la carrera de ingeniería bioquímica ofrece
                                 un desarrollo integral y profesional con el objetivo de que el estudiante se pueda
                                 desenvolver en diferentes áreas
                                 de la tecnología, ofreciendo soluciones óptimas e innovadoras.
