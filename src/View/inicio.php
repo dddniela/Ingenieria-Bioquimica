@@ -328,7 +328,7 @@
               alt="">
           </div>
         </a>
-        <a class="mx-2" href="https://twitter.com/TecNM_MX" target="_blank" style="text-decoration: none;">
+        <a class="mx-2" href="https://x.com/TecNM_MX" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
             <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png"
               alt="">
@@ -357,7 +357,7 @@
               alt="">
           </div>
         </a>
-        <a class="mx-2" href="https://twitter.com/tvitver" target="_blank" style="text-decoration: none;">
+        <a class="mx-2" href="https://x.com/tvitver" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
             <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png"
               alt="">
