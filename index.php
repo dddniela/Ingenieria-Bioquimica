@@ -12,7 +12,7 @@ $urlControl = array(
     $_SERVER['SERVER_NAME'] . "/Ingenieria-Bioquimica/?option=0"
 );
 
-$carreraID = 4;
+$programaId = 4;
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
