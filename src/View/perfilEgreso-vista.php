@@ -124,7 +124,7 @@ $objetivo = $seccion->getObjetivo();
                 <div class="row g-0">
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/IMG_4446.webp" alt="">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/escuela39.webp" alt="">
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/Venus.webp" alt="">
@@ -188,8 +188,8 @@ $objetivo = $seccion->getObjetivo();
 <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/IMG_4446.webp" alt="">
-            <p>Logo del Instituto Tecnológico de Veracruz</p>
+            <img src="img/ITVER/escuela39.webp" alt="">
+            <p>Estatua Ing. Ismael Lagunes Lastra - Fundador del Instituto Tecnológico de Veracruz</p>
         </div>
     </div>
 </div>

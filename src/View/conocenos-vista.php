@@ -173,7 +173,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                     <div class="col-md-4 px-2">
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Cómputo</p>
+                            <p class="text-center shadow-text" style="color: white;">Sala de Simulación</p>
                             <div class="justify-content-center text-center">
                               <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
                             </div>
@@ -209,17 +209,24 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                               <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
                             </div>
                         </a>
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6" style="text-decoration: none;">
+                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/LabEyQ1.webp" alt="">
+                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Ecología y Química</p>
+                            <div class="justify-content-center text-center">
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                            </div>
+                        </a>
                     </div>
 
                     <div class="col-md-4 px-2">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6" style="text-decoration: none;">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Inorgánica</p>
                             <div class="justify-content-center text-center">
                               <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
                             </div>
                         </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7" style="text-decoration: none;">
+                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Orgánica</p>
                             <div class="justify-content-center text-center">
@@ -240,7 +247,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
             <img src="img/ITVER/labComputo2.webp" alt="">
-            <p>Laboratorio de Cómputo</p>
+            <p>Sala de Simulación</p>
         </div>
     </div>
 </div>
@@ -284,13 +291,22 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
+            <img src="img/ITVER/LabEyQ2.webp" alt="">
+            <p>Laboratorio de Ecología y Química</p>
+        </div>
+    </div>
+</div>
+
+<div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content bg-transparent text-white text-center">
             <img src="img/ITVER/labQInorganica2.webp" alt="">
             <p>Laboratorio de Química Inorgánica</p>
         </div>
     </div>
 </div>
 
-<div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
+<div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
             <img src="img/ITVER/labQOrganica2.webp" alt="">

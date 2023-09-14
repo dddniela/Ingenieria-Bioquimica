@@ -247,8 +247,7 @@
                             realización de proyectos de investigación y prácticas profesionales en empresas e instituciones relacionadas, 
                             para complementar la formación académica con experiencias prácticas en el campo laboral.
                             </p>
-                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades que han
-                                existido:</h5>
+                            <h5 class="font-bold text-warning" style="text-align: justify">Especialidades vigentes:</h5>
                             <div class="bg-dark">
                                 <ul class="m-3 text-light font-bold" style="text-align: justify">
                                     <?php

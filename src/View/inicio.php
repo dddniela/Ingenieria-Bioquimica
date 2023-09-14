@@ -14,7 +14,7 @@
         <div class="container">
           <div class="carousel-caption d-flex flex-column">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Bioquímica</h1>
-            <h2 class="mainSubtitle text-center font-bold shadow-text">Diseña proyectos de ingeniería</h1>
+            <h2 class="mainSubtitle text-center font-bold shadow-text">Diseña proyectos de ingeniería en procesos biológicos</h1>
               <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=3">Explorar</a>
               </p>
           </div>
@@ -22,7 +22,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P30.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Bioquímica</h1>
@@ -33,7 +33,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="img/IBQ-IQ/P30.webp" class="d-block w-100 align-middle" width="100%" height="100%">
+        <img src="img/IBQ-IQ/P1.webp" class="d-block w-100 align-middle" width="100%" height="100%">
         <div class="container">
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Bioquímica</h1>
@@ -213,22 +213,22 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/aniluMirandaMedina.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/pabloGonzalezCervantes.webp"
               alt="">
             <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/Docentes/benignoOrtizMuniz.webp" alt="">
+              src="img/Docentes/yolandaDiazViveros.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/kennyOrtizOchoa.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/gracielaBallesterosBarradas.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/sandraPerezCorrea.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/guadalupeRodriguezJimenes.webp" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/blancaDiazMartinez.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/benignoOrtizMuniz.webp"
               alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/pabloGonzalezCervantes.webp"
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Docentes/aniluMirandaMedina.webp"
               alt="">
           </div>
 
