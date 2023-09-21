@@ -175,21 +175,21 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Sala de Simulación</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Fisicoquímica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiologicas2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ciencias Biológicas</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
                             </div>
                         </a>
                     </div>
@@ -199,21 +199,21 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ingeniería Química</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/4u3wwwuy">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQAnalitica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Analítica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/LabEyQ1.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ecología y Química</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
                             </div>
                         </a>
                     </div>
@@ -223,14 +223,14 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Inorgánica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Orgánica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
                             </div>
                         </a>
                     </div>
@@ -316,3 +316,19 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 </div>
 <!-- Fin Modals de la galería-->
 <!--Fin Instalaciones-->
+
+<!--Autores de la página-->
+<div class="bg-primary pt-5"></div>
+<div class="p-4 text-center">
+  <h5 class="font-bold">Autores de la página:</h5>
+  <p class="font-semibold">Estudiantes de la Generación 2018 - 2023</p>
+  <p>Marco Gabriel Cortés Toledo, Daniela Castro Rodriguez, Nancy Daniela Mendez Arpidez,
+    Yelitza Magali Rosas Jiménez y Gabriel Escobar Medina.</p>
+</div>
+
+<div class="p-1 text-center">
+  <p class="font-semibold">Agradecimientos</p>
+  <p>Ángel Sánchez Domínguez, Fernando Martinez, Ángel Manuel Sandria Pérez, Eric Manuel Montalvo Cruz, Iván de Jesús Agame Malpica,
+    Héctor Hugo Herrera López y Joshua Daniel Avilés Cervantes.
+  </p>
+</div>
