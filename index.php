@@ -33,8 +33,7 @@ $comunidad->setConnection($conn->getDB());
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Ingeniería Mecátronica">
-    <meta name="author" content=" Marco Gabriel Cortes Toledo, Daniela Castro Rodriguez, 
-    Nancy Daniela Mendez Arpidez, Yelitza Magali Rosas Jimenez, Gabriel Escobar Medina">
+    <meta name="author" content="Tecnológico Nacional de México, Instituto Tecnológico de Veracruz">
     <link rel="icon" href="img/itver-logo.PNG" />
 
     <link rel="stylesheet" href="assets/css/bootstrap.css">
