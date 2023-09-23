@@ -26,18 +26,18 @@ $objetivo = $seccion->getObjetivo();
            <div class="galleryContainer bg-light">
                 <div class="row g-0">
                 <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica.webp" alt="">
-                    </div>
-
-                    <div class="col-4 px-2">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/miranda.webp" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/eduardo.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
                         <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica2.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica.webp" alt="">
+                    </div>
+
+                    <div class="col-4 px-2">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
                     </div>
                 </div>
             </div> 
@@ -234,7 +234,7 @@ $objetivo = $seccion->getObjetivo();
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content bg-transparent text-white text-center">
             <img src="img/ITVER/escuela3.webp" alt="">
-            <p>Laboratorio Ingeniería Fisicoquimica Edificio D</p>
+            <p>Planta Piloto 2G Bioetanol</p>
         </div>
     </div>
 </div>
