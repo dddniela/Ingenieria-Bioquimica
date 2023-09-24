@@ -26,18 +26,18 @@ $objetivo = $seccion->getObjetivo();
            <div class="galleryContainer bg-light">
                 <div class="row g-0">
                 <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/miranda.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/eduardo.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/OGIBQ1.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/OGIBQ2.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica2.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/grupalbioquimica.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/OGIBQ3.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/OGIBQ4.webp" alt="">
                     </div>
 
                     <div class="col-4 px-2">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/joshua.webp" alt="">
-                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/hector.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/OGIBQ5.webp" alt="">
+                        <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/Alumnos/OGIBQ6.webp" alt="">
                     </div>
                 </div>
             </div> 
