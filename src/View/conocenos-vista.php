@@ -175,21 +175,21 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Sala de Simulación</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Fisicoquímica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiologicas2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ciencias Biológicas</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
                             </div>
                         </a>
                     </div>
@@ -199,21 +199,21 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ingeniería Química</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/4u3wwwuy">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/43445vcn">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQAnalitica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Analítica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/LabEyQ1.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Ecología y Química</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
                             </div>
                         </a>
                     </div>
@@ -223,14 +223,14 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Inorgánica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
                             </div>
                         </a>
                         <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8" style="text-decoration: none;">
                             <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
                             <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Orgánica</p>
                             <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/257mj75b">Ver reglamento</a></p>
+                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
                             </div>
                         </a>
                     </div>
