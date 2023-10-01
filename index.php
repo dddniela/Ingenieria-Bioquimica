@@ -13,6 +13,9 @@ $urlControl = array(
 );
 
 $programaId = 4;
+$api = 'http://localhost:3010';
+$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Bioquimica/docentes/';
+
 $conn = new Conexion();
 $conn->connect();
 $docente = new Docente();
