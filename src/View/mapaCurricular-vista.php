@@ -350,6 +350,7 @@ $reticula = $seccion->imprimirBotonReticula();
 
         </div>
     </section>
+</div>
 <!--Fin Desarrollo profesional -->
 
 <!-- Actividades complementarias -->
