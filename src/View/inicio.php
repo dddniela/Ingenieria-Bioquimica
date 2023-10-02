@@ -2,8 +2,7 @@
 <section>
   <div id="myCarousel" class="carousel slide col-lg-12 col-sm-12" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
-        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
@@ -38,7 +37,7 @@
           <div class="carousel-caption">
             <h1 class="mainTitle text-center font-bold m-2 shadow-text">Ingeniería Bioquímica</h1>
             <h2 class="mainSubtitle text-center font-bold d-none d-md-inline-flex shadow-text">Movilidad nacional e internacional</h1>
-            <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
+              <p><a class="mainButton btn font-bold d-none d-md-inline-flex" href="?option=1">Explorar</a></p>
           </div>
         </div>
       </div>
@@ -74,9 +73,9 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;">
-            La carrera de ingeniería bioquímica permite al estudiante desarrollar procesos biotecnológicos 
-            sostenibles y económicos; ya que los diseñan, construyen y operan. Además, trasladar productos 
-            en fase de investigación a una escala piloto.
+              La carrera de ingeniería bioquímica permite al estudiante desarrollar procesos biotecnológicos
+              sostenibles y económicos; ya que los diseñan, construyen y operan. Además, trasladar productos
+              en fase de investigación a una escala piloto.
             </p>
             <a class="btn btn-warning font-bold" href="?option=3" role="button">¡Saber más!</a>
           </div>
@@ -101,7 +100,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Diseño y Optimización de Procesos</h3>
         <p class="areaText">
-        Desarrolla ingeniería en procesos de alimentos, ambiente y farmacéutica, así como su optimización.
+          Desarrolla ingeniería en procesos de alimentos, ambiente y farmacéutica, así como su optimización.
         </p>
       </div>
     </div>
@@ -113,8 +112,8 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Control de Procesos</h3>
         <p class="areaText">
-        Selecciona y aplica la instrumentación para el control de procesos biológicos 
-        a partir de los requerimientos óptimos de operación.
+          Selecciona y aplica la instrumentación para el control de procesos biológicos
+          a partir de los requerimientos óptimos de operación.
         </p>
       </div>
     </div>
@@ -126,7 +125,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Simulación de Procesos</h3>
         <p class="areaText">
-        Simula procesos biotecnológicos mediante el uso de software comercial.
+          Simula procesos biotecnológicos mediante el uso de software comercial.
         </p>
       </div>
     </div>
@@ -138,7 +137,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Gestión de los Procesos</h3>
         <p class="areaText">
-        Implementa sistemas de gestión de calidad, seguridad, ambiente y energía.
+          Implementa sistemas de gestión de calidad, seguridad, ambiente y energía.
         </p>
       </div>
     </div>
@@ -150,7 +149,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Formulación y evaluación de proyectos</h3>
         <p class="areaText">
-        Desarrolla y evalúa un proyecto técnico considerando el desarrollo sustentable.
+          Desarrolla y evalúa un proyecto técnico considerando el desarrollo sustentable.
         </p>
       </div>
     </div>
@@ -162,7 +161,7 @@
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Control de producción</h3>
         <p class="areaText">
-        Interpreta análisis químicos, microbiológicos para la toma de decisión del proceso
+          Interpreta análisis químicos, microbiológicos para la toma de decisión del proceso
         </p>
       </div>
     </div>
@@ -185,9 +184,9 @@
           </div>
           <div class="col-12 px-4" style="text-align: center;">
             <p class="text-light" style="text-align: justify;">
-            El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde 
-            los estudiantes planean y desarrollan experimentos para la obtención de datos que permiten 
-            la comprobación de los conceptos teóricos estudiados en los cursos.
+              El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde
+              los estudiantes planean y desarrollan experimentos para la obtención de datos que permiten
+              la comprobación de los conceptos teóricos estudiados en los cursos.
             </p>
             <a class="btn btn-warning font-bold" href="?option=4" role="button">¡Explorar!</a>
           </div>
@@ -213,23 +212,18 @@
       <div class="galleryContainer bg-light">
         <div class="row g-0">
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/docentes/pabloGonzalezCervantes.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2"
-              src="img/docentes/yolandaDiazViveros.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'pabloGonzalezCervantes.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'yolandaDiazViveros.webp'; ?>" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/docentes/gracielaBallesterosBarradas.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/docentes/guadalupeRodriguezJimenes.webp" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'gracielaBallesterosBarradas.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'guadalupeRodriguezJimenes.webp'; ?>" alt="">
           </div>
 
           <div class="col-4 px-2">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/docentes/benignoOrtizMuniz.webp"
-              alt="">
-            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="img/docentes/aniluMirandaMedina.webp"
-              alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'benignoOrtizMuniz.webp'; ?>" alt="">
+            <img class="img-fluid w-100 shadow-1-strong rounded m-2" src="<?php echo $GLOBALS['PATH_DOCENTE'] . 'aniluMirandaMedina.webp'; ?>" alt="">
           </div>
 
         </div>
@@ -245,10 +239,10 @@
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;">
-            Contamos con docentes de diversas disciplinas que son impulsores de cambio, 
-            con estudios de posgrado y una amplia experiencia en el quehacer docente, quienes 
-            demuestran diariamente su compromiso en las aulas. Son profesionales que tienen la facultad de 
-            transformar vidas, de impactar a las futuras generaciones de estudiantes.
+              Contamos con docentes de diversas disciplinas que son impulsores de cambio,
+              con estudios de posgrado y una amplia experiencia en el quehacer docente, quienes
+              demuestran diariamente su compromiso en las aulas. Son profesionales que tienen la facultad de
+              transformar vidas, de impactar a las futuras generaciones de estudiantes.
             </p>
             <a class="btn btn-warning font-bold" href="?option=2" role="button">¡Conocer docentes!</a>
           </div>
@@ -269,7 +263,7 @@
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
-        <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank" >
+        <a href="http://gestion.itver.edu.mx/servicio-social/" target="_blank">
           <img class="img-fluid w-100 shadow-1-strong rounded mb-4 p-1" src="img/gestionVinculacion2.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">Servicio social</h3>
@@ -278,7 +272,7 @@
 
     <div class="col-lg-4 col-sm-6 text-center p-3">
       <div class="area shadow-sm p-4 rounded-3">
-        <a href="http://www.veracruz.tecnm.mx/" target="_blank" >
+        <a href="http://www.veracruz.tecnm.mx/" target="_blank">
           <img class="img-fluid w-100 shadow-1-strong rounded mb-4  p-1" src="img/Venus.webp" alt="">
         </a>
         <h3 class="areaTitle text-center font-bold text-xl">TECNM Veracruz</h3>
@@ -294,7 +288,7 @@
       </div>
     </div>
 
-    
+
 
   </div>
 </section>
@@ -318,26 +312,22 @@
       <div class="d-flex flex-row justify-content-center">
         <a class="mx-2" href="https://www.tecnm.mx/" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-column justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px"
-              src="img/iconos/tecnm-logo.PNG" alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/tecnm-logo.PNG" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.facebook.com/TecNMmx" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://x.com/TecNM_MX" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.youtube.com/user/SNESTMX" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG" alt="">
           </div>
         </a>
       </div>
@@ -347,27 +337,22 @@
       <div class="d-flex flex-row justify-content-center">
         <a class="mx-2" href="https://www.veracruz.tecnm.mx/index.php" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px"
-              src="img/iconos/itver-logo.PNG" alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/itver-logo.PNG" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://www.facebook.com/ITVeracruz" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/facebook.PNG" alt="">
           </div>
         </a>
         <a class="mx-2" href="https://twitter.com/TecNM_Veracruz" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/twitterX.png" alt="">
           </div>
         </a>
-        <a class="mx-2" href="https://www.youtube.com/channel/UCVBkOP_rj5ulvlriG88jTzA" target="_blank"
-          style="text-decoration: none;">
+        <a class="mx-2" href="https://www.youtube.com/channel/UCVBkOP_rj5ulvlriG88jTzA" target="_blank" style="text-decoration: none;">
           <div class="d-flex flex-row justify-content-center">
-            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG"
-              alt="">
+            <img class="img-fluid shadow-1-strong rounded mb-4 p-1" style="height: 40px" src="img/iconos/youtube.PNG" alt="">
           </div>
         </a>
       </div>

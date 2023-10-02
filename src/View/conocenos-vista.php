@@ -1,10 +1,12 @@
 <?php
 require_once("src/Models/Administrativo.php");
 $administrativos = new Administrativo();
-$administrativos->setConnection($conn->getDB());
 
 $coordinador = $administrativos->getCoordinador();
 $jefeDepartamento =  $administrativos->getJefeDepartamento();
+
+$imagenJefeDep = $GLOBALS['PATH_DOCENTE'] . $jefeDepartamento['imagen'];
+$imagenCoordinador = $GLOBALS['PATH_DOCENTE'] . $coordinador['imagen'];
 ?>
 <!-- Portada -->
 <div class="row g-0">
@@ -27,8 +29,8 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <section class="lightSection bg-light">
   <div class="row px-2 g-0">
 
-  <div class="col-lg-6 col-12 p-2 shadow-sm">
-    <div class="d-flex justify-content-center align-items-center w-100 h-100">
+    <div class="col-lg-6 col-12 p-2 shadow-sm">
+      <div class="d-flex justify-content-center align-items-center w-100 h-100">
         <img class="img-fluid rounded" src="img/ITVER/escuela21.webp" alt="">
       </div>
     </div>
@@ -42,12 +44,12 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
           </div>
           <div class="col-12" style="text-align: center;">
             <p style="text-align: justify;">
-            Los programas educativos de Ingeniería Química, Ingeniería Bioquímica y Posgrados de la UNIDA 
-            (Unidad de Investigación y Desarrollo de Alimentos) pertenecen al departamento de Ingeniería 
-            Química y Bioquímica y su objetivo principal es el control de las actividades docentes de los 
-            programas de estudio, la vinculación con el sector productivo para la contribución de la formación 
-            profesional del estudiante, así como propiciar actividades científicas con la investigación 
-            documental y de campo.
+              Los programas educativos de Ingeniería Química, Ingeniería Bioquímica y Posgrados de la UNIDA
+              (Unidad de Investigación y Desarrollo de Alimentos) pertenecen al departamento de Ingeniería
+              Química y Bioquímica y su objetivo principal es el control de las actividades docentes de los
+              programas de estudio, la vinculación con el sector productivo para la contribución de la formación
+              profesional del estudiante, así como propiciar actividades científicas con la investigación
+              documental y de campo.
             </p>
           </div>
         </div>
@@ -69,7 +71,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h2 class="sectionTitle text-center font-bold m-3">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento->nombre;
+                echo $jefeDepartamento['nombre'];
               }
               ?>
             </h2>
@@ -77,7 +79,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento->nombrePuesto . " de Ingeniería Química-Bioquímica";
+                echo $jefeDepartamento['nombrePuesto'] . " de Sistemas Computacionales";
               }
               ?>
             </h4>
@@ -86,7 +88,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <p class="" style="text-align: justify">
               <?php
               if ($jefeDepartamento) {
-                echo $jefeDepartamento->descripcion;
+                echo $jefeDepartamento['descripcion'];
               }
               ?>
             </p>
@@ -97,7 +99,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='img\Docentes\<?php if ($jefeDepartamento)  echo $jefeDepartamento->imagen; ?>' alt="">
+        <img class="img-fluid rounded" src='<?php if ($jefeDepartamento)  echo $imagenJefeDep; ?>' alt="">
       </div>
     </div>
 
@@ -112,7 +114,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 
     <div class="col-lg-6 col-12 p-2 shadow-sm">
       <div class="d-flex justify-content-center align-items-center w-100 h-100">
-        <img class="img-fluid rounded" src='img\Docentes\<?php if ($coordinador) echo $coordinador->imagen; ?>' alt="">
+        <img class="img-fluid rounded" src='<?php if ($coordinador) echo $imagenCoordinador; ?>' alt="">
       </div>
     </div>
 
@@ -123,7 +125,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h2 class="sectionTitle text-center font-bold m-3">
               <?php
               if ($coordinador) {
-                echo $coordinador->nombre;
+                echo $coordinador['nombre'];
               }
               ?>
             </h2>
@@ -131,7 +133,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <h4 class="text-center fw-bold fs-3">
               <?php
               if ($coordinador) {
-                echo $coordinador->nombrePuesto . " de " . $coordinador->nombreCarrera;
+                echo $coordinador['nombrePuesto'] . " de Sistemas Computacionales";
               }
               ?>
             </h4>
@@ -140,7 +142,7 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
             <p class="" style="text-align: justify">
               <?php
               if ($coordinador) {
-                echo $coordinador->descripcion;
+                echo $coordinador['descripcion'];
               }
               ?>
             </p>
@@ -156,164 +158,163 @@ $jefeDepartamento =  $administrativos->getJefeDepartamento();
 <!-- Instalaciones -->
 <!-- Galeria de imagenes -->
 <section class="darkSection bg-dark p-2 px-4">
-    <div class="row mb-4 px-2 g-0">
-        <div class="darkSection bg-dark">
-            <h2 class="titleDarkSection text-center font-bold">Instalaciones</h2>
-            <div class="darkSectionSeparator"></div>
-            <p class="text-center" style="color: white;">
-            El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde los estudiantes 
-            planean y desarrollan experimentos para la obtención de datos que permiten la comprobación de los
-            conceptos teóricos estudiados en los cursos.
-            </p>
-        </div>
-
-        <div class="col-12">
-            <div class="galleryContainer bg-dark">
-                <div class="row g-0">
-                    <div class="col-md-4 px-2">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Sala de Simulación</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Fisicoquímica</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiologicas2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Ciencias Biológicas</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-4 px-2">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Ingeniería Química</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/43445vcn">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQAnalitica2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Analítica</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/LabEyQ1.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Ecología y Química</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-md-4 px-2">
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Inorgánica</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                        <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8" style="text-decoration: none;">
-                            <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
-                            <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Orgánica</p>
-                            <div class="justify-content-center text-center">
-                              <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
-                            </div>
-                        </a>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
+  <div class="row mb-4 px-2 g-0">
+    <div class="darkSection bg-dark">
+      <h2 class="titleDarkSection text-center font-bold">Instalaciones</h2>
+      <div class="darkSectionSeparator"></div>
+      <p class="text-center" style="color: white;">
+        El departamento de Ingeniería Química-Bioquímica cuenta con diversos laboratorios en donde los estudiantes
+        planean y desarrollan experimentos para la obtención de datos que permiten la comprobación de los
+        conceptos teóricos estudiados en los cursos.
+      </p>
     </div>
+
+    <div class="col-12">
+      <div class="galleryContainer bg-dark">
+        <div class="row g-0">
+          <div class="col-md-4 px-2">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage1" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labComputo2.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Sala de Simulación</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
+              </div>
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage2" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labFisicoquimica2.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Laboratorio de Fisicoquímica</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
+              </div>
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage3" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labCBiologicas2.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Laboratorio de Ciencias Biológicas</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 px-2">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage4" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labIngQuimica2.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Laboratorio de Ingeniería Química</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/43445vcn">Ver reglamento</a></p>
+              </div>
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage5" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQAnalitica2.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Analítica</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
+              </div>
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage6" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/LabEyQ1.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Laboratorio de Ecología y Química</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-4 px-2">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage7" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQInorganica2.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Inorgánica</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
+              </div>
+            </a>
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImage8" style="text-decoration: none;">
+              <img class="img-fluid w-100 shadow-1-strong rounded mb-4" src="img/ITVER/labQOrganica2.webp" alt="">
+              <p class="text-center shadow-text" style="color: white;">Laboratorio de Química Orgánica</p>
+              <div class="justify-content-center text-center">
+                <p><a class="btn-warning w-auto btn font-bold" target="_blank" href="https://tinyurl.com/p3ajd6nu">Ver reglamento</a></p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
 </section>
 <!-- Fin Galeria de imagenes -->
 <!-- Modals de la galería-->
 <div tabindex="-1" aria-labelledby="modalImage1" aria-hidden="true" class="modal fade" id="modalImage1">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/labComputo2.webp" alt="">
-            <p>Sala de Simulación</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/labComputo2.webp" alt="">
+      <p>Sala de Simulación</p>
     </div>
+  </div>
 </div>
 
 <div tabindex="-1" aria-labelledby="modalImage2" aria-hidden="true" class="modal fade" id="modalImage2">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/labFisicoquimica2.webp" alt="">
-            <p>Laboratorio de Fisicoquímica</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/labFisicoquimica2.webp" alt="">
+      <p>Laboratorio de Fisicoquímica</p>
     </div>
+  </div>
 </div>
 
 <div tabindex="-1" aria-labelledby="modalImage3" aria-hidden="true" class="modal fade" id="modalImage3">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/labCBiologicas2.webp" alt="">
-            <p>Laboratorio de Ciencias Biológicas</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/labCBiologicas2.webp" alt="">
+      <p>Laboratorio de Ciencias Biológicas</p>
     </div>
+  </div>
 </div>
 
 <div tabindex="-1" aria-labelledby="modalImage4" aria-hidden="true" class="modal fade" id="modalImage4">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/labIngQuimica2.webp" alt="">
-            <p>Laboratorio de Ingeniería Química</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/labIngQuimica2.webp" alt="">
+      <p>Laboratorio de Ingeniería Química</p>
     </div>
+  </div>
 </div>
 
 <div tabindex="-1" aria-labelledby="modalImage5" aria-hidden="true" class="modal fade" id="modalImage5">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/labQAnalitica2.webp" alt="">
-            <p>Laboratorio de Química Analítica</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/labQAnalitica2.webp" alt="">
+      <p>Laboratorio de Química Analítica</p>
     </div>
+  </div>
 </div>
 
 <div tabindex="-1" aria-labelledby="modalImage6" aria-hidden="true" class="modal fade" id="modalImage6">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/LabEyQ2.webp" alt="">
-            <p>Laboratorio de Ecología y Química</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/LabEyQ2.webp" alt="">
+      <p>Laboratorio de Ecología y Química</p>
     </div>
+  </div>
 </div>
 
 <div tabindex="-1" aria-labelledby="modalImage7" aria-hidden="true" class="modal fade" id="modalImage7">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/labQInorganica2.webp" alt="">
-            <p>Laboratorio de Química Inorgánica</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/labQInorganica2.webp" alt="">
+      <p>Laboratorio de Química Inorgánica</p>
     </div>
+  </div>
 </div>
 
 <div tabindex="-1" aria-labelledby="modalImage8" aria-hidden="true" class="modal fade" id="modalImage8">
-    <div class="modal-dialog modal-lg modal-dialog-centered">
-        <div class="modal-content bg-transparent text-white text-center">
-            <img src="img/ITVER/labQOrganica2.webp" alt="">
-            <p>Laboratorio de Química Orgánica</p>
-        </div>
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent text-white text-center">
+      <img src="img/ITVER/labQOrganica2.webp" alt="">
+      <p>Laboratorio de Química Orgánica</p>
     </div>
+  </div>
 </div>
 <!-- Fin Modals de la galería-->
 <!--Fin Instalaciones-->
-
