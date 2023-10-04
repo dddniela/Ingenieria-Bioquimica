@@ -125,12 +125,15 @@ class Docente
             $informacionAcademica = $docente['informacionAcademica'];
             $materias = $docente['materias'];
             $contacto = $docente['contacto'];
-            $urlImagen = $GLOBALS['PATH_DOCENTE'] . $docente['urlImagen'];
+            
+            $type = pathinfo($docente['urlImagen'], PATHINFO_EXTENSION);
+            $urlImagen = file_get_contents($GLOBALS['PATH_DOCENTE'] . $docente['urlImagen']);
+            $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
 
             $codigo .= "<div class='col-lg-4 col-sm-6 text-center p-3'>
                                 <div class='area shadow-sm p-4 rounded-3'>
                                     <div class='d-flex flex-row justify-content-center my-1'>
-                                        <img class='rounded-circle p-1 bg-primary imagen-docentes' src='" . $urlImagen . "' alt=''>
+                                        <img class='rounded-circle p-1 bg-primary imagen-docentes' src='$urlImagen' alt=''>
                                     </div>
                                     <div class='d-flex flex-row justify-content-center'>
                                         <h3 class='tituloAreaDocente text-center font-bold text-xl'>$nombre</h3>
@@ -153,7 +156,7 @@ class Docente
                                             <div class='row justify-content-center m-2'>
                                                 <div class='col-7 col-lg-auto justify-content-center m-2'>
                                                     <div class='d-flex justify-content-center'>
-                                                        <img class='rounded-circle p-1 bg-primary imagen-docentesModal' src='" . $urlImagen . "' alt=''>
+                                                        <img class='rounded-circle p-1 bg-primary imagen-docentesModal' src='$urlImagen' alt=''>
                                                     </div>
                                                 </div>
                                                 <div class='col-12 col-lg-7 justify-content-center align-items-center m-2'>
