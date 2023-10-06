@@ -14,7 +14,7 @@ $urlControl = array(
 
 $programaId = 4;
 $api = 'http://localhost:3010';
-$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Bioquimica/Docentes/';
+$PATH_DOCENTE =  $GLOBALS['api'] . '/imagenes/Ing-Bioquimica/docentes/';
 $PATH_COMUNIDAD=  $GLOBALS['api'] . '/imagenes/Ing-Bioquimica/comunidades/';
 
 $conn = new Conexion();
