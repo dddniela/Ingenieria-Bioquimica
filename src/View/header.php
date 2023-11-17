@@ -79,7 +79,6 @@
                 <a href="https://login.microsoftonline.com/?whr=tecnm.mx" title="Correo Institucional" target="_blank" style="text-decoration: none;">
                     <img loading='lazy' height="40" src="img/encabezado/correo-icono.png" alt="Buzón">
                 </a>
-
                 <!-- Traductor -->
                 <a href='?idioma=mandarin#googtrans(es|zh-CN)' class='mr-3' style="text-decoration: none;">
                     <img height="40" src='img/encabezado/china-icono.png' title='Mandarín' alt='Idioma Mandarín'>
@@ -96,9 +95,7 @@
                 <a href='?idioma=coreano#googtrans(es|ko)' class='mr-3' style="text-decoration: none;">
                     <img height="40" src='img/encabezado/corea-icono.png' title='Español' alt='Idioma Español'>
                 </a>
-
-                <img loading='lazy' height="40" title="Accesibilidad" src="img/encabezado/ojo-icono.png" alt="Débil Visual" />
-
+                
                 <button class="btnCambioTexto" onclick="return cambiarTexto('+')">A+</button>
                 <button class="btnCambioTexto" onclick="return cambiarTexto('-')">A-</button>
                 <button class="btnCambioTexto" onclick="resetLetra()" title="Restablecer tamaño">A</button>
