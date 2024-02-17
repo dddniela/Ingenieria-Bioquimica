@@ -61,31 +61,35 @@ class Especialidad
         $ruta_img = "";
         switch ($Area) {
             case 'Procesos':
-                $ruta_img = 'img/iconos/procesos.png';
+                $ruta_img = 'procesos.png';
                 break;
             case 'Simulacion':
-                $ruta_img = 'img/iconos/simulacion.png';
+                $ruta_img = 'simulacion.png';
                 break;
             case 'Gestion':
-                $ruta_img = 'img/iconos/gestion.png';
+                $ruta_img = 'gestion.png';
                 break;
             case 'Humanidades':
-                $ruta_img = 'img/iconos/humanidades.png';
+                $ruta_img = 'humanidades.png';
                 break;
             case 'Alimentos':
-                $ruta_img = 'img/iconos/alimentos.png';
+                $ruta_img = 'alimentos.png';
                 break;
             case 'Farmaceutica':
-                $ruta_img = 'img/iconos/farmaceutica.png';
+                $ruta_img = 'farmaceutica.png';
                 break;
             case 'Ambiente':
-                $ruta_img = 'img/iconos/ambiente.png';
+                $ruta_img = 'ambiente.png';
                 break;
             default:
-                $ruta_img = 'img/iconos/ingenieria.png';
+                $ruta_img = 'ingenieria.png';
                 break;
         }
-        return $ruta_img;
+        
+        $type = pathinfo($ruta_img, PATHINFO_EXTENSION);
+        $urlImagen = file_get_contents($GLOBALS['PATH_ICONO'] . $ruta_img);
+        $urlImagen = 'data:image/' . $type . ';base64,' . base64_encode($urlImagen);
+        return $urlImagen;
     }
 
 
